@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block content %}
+
+        <div id="gatheredPlaylists">
+          <h1 class="plsylistTxt searched">Playlist Inspiration is {{ search }}</h1>
+          <div class="displayPlaylists explainLayout">
+            <!-- <div class="indivPlaylist"> -->
+              <p class="plsylistTxt playlistName" ></a>Playlist Name</p>
+              <p class="plsylistTxt creatorName">User of Creator</p>
+              <!-- <img  class = "plsylistTxt playDescription" src="imgs/home.png" alt="Description of Playlist"> -->
+              <div class="containerDescription">
+                <p class="plsylistTxt playlistDescription">...</p>
+                <p class="descriptionPlay HiddenText">description</p>
+            <!-- </div> -->
+            </div>
+            
+        </div>
+
+        {% for dataPlaylists in dataPlaylists %}
+        <div class="indiv displayPlaylists explainLayout">
+          
+          <div class="indivPlaylist">
+            
+            <div class="play" class="link"><a href="https://open.spotify.com/playlist/{{ dataPlaylists.id }}" target="_blank" > <button name ="add" class="likedButton link" data-playlist="{{ dataPlaylists.id }}" data-user='{{ dataPlaylists.owner["id"] }}' data-name='{{ dataPlaylists.name }}' data-creator='{{ dataPlaylists.owner["display_name"] }}'> <i class="fa fa-heart"></i></button> </a></div>
+            <p class="plsylistTxt playlistName " data-playlist='{{ dataPlaylists.id}}'></a>{{ dataPlaylists.name }}</p>
+            <p class="plsylistTxt creatorName " data-user='{{ dataPlaylists.owner["id"] }}'> {{ dataPlaylists.owner["display_name"] }}</p>
+            <!-- <img  class = "plsylistTxt playDescription" src="imgs/home.png" alt="Description of Playlist"> -->
+            <div class="containerDescription">
+              <p class="plsylistTxt playlistDescription">...</p>
+              <p class="descriptionPlay HiddenText">{{ dataPlaylists.description }}</p>
+          </div>
+        </div>
+        
+        </div>
+        <!-- </div> -->
+        {% endfor %}
+        </div>
+
+        
+
+        <div class="containerMusicPlayer">
+          <!-- get chosen playlist and use tom's service to get the tracks
+              from inside the playlist -->
+          <p class="chosenPlaylist txt">
+            Now playing from playlist name</p>
+          <div class="coverImg">
+            <img class="coverImage" src="{{ url_for('static', filename='like.png')}}" alt="temp cover image">
+          </div>
+          <div class="mediaOptions">
+            <!-- <audio controls>
+              <source src="temp.m4a" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio> -->
+            <!-- <audio src="temp.m4a" id="song"></audio> -->
+            <i class="fa fa-step-backward media"></i>
+            <i class="fa fa-play-circle media"></i>
+            <i class="fa fa-play-circle-o media"></i>
+            <i class="fa fa-step-forward media"></i>
+          </div>
+            <div class="songInfo">
+            <p class="idk"> <span class="currSong txt">
+              song name</span> <span class="artistName txt">artist name</span></p>
+          </div>
+        </div>
+{% endblock content %}

@@ -1,0 +1,182 @@
+[
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6jgSmmABoLOh3p0DDnXjRB"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB",
+        "id": "6jgSmmABoLOh3p0DDnXjRB",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebbe9230e622645cddb724eba42",
+                "width": null
+            }
+        ],
+        "name": "JHOPE X PTD \ud83c\udfd6",
+        "owner": {
+            "display_name": "Bangtan Boys SV",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/n0tdr32sj9xf8k9shgq5ibenk"
+            },
+            "href": "https://api.spotify.com/v1/users/n0tdr32sj9xf8k9shgq5ibenk",
+            "id": "n0tdr32sj9xf8k9shgq5ibenk",
+            "type": "user",
+            "uri": "spotify:user:n0tdr32sj9xf8k9shgq5ibenk"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NTksNTRlZjlmN2FmYjEyMjc1YTMxYTZhZjFhOTNjOTFiZmY1YTA5YzgzMA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB/tracks",
+            "total": 34
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6jgSmmABoLOh3p0DDnXjRB"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7gAslB0vPVQMKqIU83d1ch"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch",
+        "id": "7gAslB0vPVQMKqIU83d1ch",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebba746a062ff3cc5557ad5e779",
+                "width": null
+            }
+        ],
+        "name": "PTD + JHOPE",
+        "owner": {
+            "display_name": "c!n",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/31jw43oe2krdspdvyqvo62q3yd34"
+            },
+            "href": "https://api.spotify.com/v1/users/31jw43oe2krdspdvyqvo62q3yd34",
+            "id": "31jw43oe2krdspdvyqvo62q3yd34",
+            "type": "user",
+            "uri": "spotify:user:31jw43oe2krdspdvyqvo62q3yd34"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU3LDAwMzVhMzVkYjBhZmE0YmU1NGQzMWJlOGQ2ZDQzNjczMTEyMWZlODE=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch/tracks",
+            "total": 48
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7gAslB0vPVQMKqIU83d1ch"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6KdDdkjD5I3ObRqrc4TKNt"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt",
+        "id": "6KdDdkjD5I3ObRqrc4TKNt",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebb1524b179a5134a2e06bcb9e9",
+                "width": null
+            }
+        ],
+        "name": "j-hope's Favorite Tracks",
+        "owner": {
+            "display_name": "BTS",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/bighitktm"
+            },
+            "href": "https://api.spotify.com/v1/users/bighitktm",
+            "id": "bighitktm",
+            "type": "user",
+            "uri": "spotify:user:bighitktm"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxLGU2NDZkNTcyOWNkOTlkZjFlYjg3ZWU0MWEyOGNmNzNhOTA5YjQwM2U=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt/tracks",
+            "total": 21
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6KdDdkjD5I3ObRqrc4TKNt"
+    },
+    {
+        "collaborative": false,
+        "description": "From lives, interviews, runs, tweets, magazines, spotify&#x27;s official list of Hobi &amp; other media. Organized from the newest to the oldest song.",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/22cNd3Oj28hAGmI4x2Fe8p"
+        },
+        "href": "https://api.spotify.com/v1/playlists/22cNd3Oj28hAGmI4x2Fe8p",
+        "id": "22cNd3Oj28hAGmI4x2Fe8p",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebbedd56d34b9b3bc9b710455ed",
+                "width": null
+            }
+        ],
+        "name": "Jhope's  playlist \ud83c\udf3b (Updated)",
+        "owner": {
+            "display_name": "Mile \ud83c\udf3b",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/milena.sfarcic"
+            },
+            "href": "https://api.spotify.com/v1/users/milena.sfarcic",
+            "id": "milena.sfarcic",
+            "type": "user",
+            "uri": "spotify:user:milena.sfarcic"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "Mjk0LDRmZGQ0YTdlZjhkMTYxNDI1N2NhZDBiOWQzNTRhOWY3YTQ5YjRkZjc=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/22cNd3Oj28hAGmI4x2Fe8p/tracks",
+            "total": 121
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:22cNd3Oj28hAGmI4x2Fe8p"
+    },
+    {
+        "collaborative": false,
+        "description": "Playlist para apoyar principalmente el trabajo de Jung HoSeok y otras canciones de BTS.",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4sjeWYuKK5R89UKqCxRMt9"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4sjeWYuKK5R89UKqCxRMt9",
+        "id": "4sjeWYuKK5R89UKqCxRMt9",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebba219f01438db884c1ff9a271",
+                "width": null
+            }
+        ],
+        "name": "JHOPE - BTS",
+        "owner": {
+            "display_name": "@BTS_twt O",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/11177737725"
+            },
+            "href": "https://api.spotify.com/v1/users/11177737725",
+            "id": "11177737725",
+            "type": "user",
+            "uri": "spotify:user:11177737725"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjQ3LDY1YmY3NGYxZmY4MzhlNzhkYzA4MzQ3OWI1MmM5MmJmMTY1MTM1MDE=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4sjeWYuKK5R89UKqCxRMt9/tracks",
+            "total": 51
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4sjeWYuKK5R89UKqCxRMt9"
+    }
+]

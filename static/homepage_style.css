@@ -1,0 +1,519 @@
+header {
+    display: inline-flex;
+    width: -webkit-fill-available;
+    left: 0px;
+    height: 126px;
+    top: 0px;
+    background-color: black;
+    position: fixed;
+}
+
+html {
+    background-color: rgb(209, 243, 204);
+}
+
+.rando {
+    top: 33px;
+    position: fixed;
+}
+
+img {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 25px;
+}
+
+.site-title {
+    top: 40px;
+    left: 95px; 
+    font-size: 35px;
+    color: #26de52;
+    position: fixed;
+    display:contents;
+}
+
+.site-title a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: #26de52;
+    /* left: 100px; */
+    display: inline-block;
+    margin: 10px 40px 10px 40px;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+    
+}
+
+.spotify {
+    left: 300px;
+    position: fixed;
+    top: 30px;
+}
+
+.site-title img {
+    margin-left: 15px;
+}
+.liked {
+    left: 450px;
+}
+
+.search {
+    position: fixed;
+    top: 60px;
+    margin: 0px 10px 0px 10px;
+    right: 39px;
+    width: 220px;
+    height: 30px;
+}
+
+#searchFunct {
+    position: fixed;
+    right: 150px;
+    border-color: #26de52;
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    width: 250px;
+}
+
+#searchFunct:focus {
+    border-radius: 10px;
+    border-color: #26de52;
+}
+
+#searchButton {
+    position: fixed;
+    right: 110px;
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    color:black;
+    background-color: #26de52;
+    border-color:#6aff8d;
+}
+
+.instructions {
+    border-radius: 10px;
+    border: 2px solid #26de52;
+    width: 460px;
+    position: relative;
+    margin: 30px 50px 30px 50px;
+    height: fit-content;
+    background-color: black;
+    color: #26de52;
+    padding: 10px;
+}
+
+.info {
+    margin:10px;
+    padding:20px;
+    border: #26de52 1px solid;
+    border-radius: 10px;
+    width:400px;
+}
+
+.instructions h1 {
+    font-size: 25px;
+}
+
+.content {
+    top: 100px;
+    display: inline-flex;
+    margin: 20px;
+    position: fixed;
+    left: 50px;
+    width: 1000px;
+    right: 50px;
+    height:600px;
+    overflow-y: scroll;
+    width: auto;
+}
+
+/* FOR LIKED SONGS */
+.imgWrap {
+    width: 89px;
+    height: 89px;
+    position: fixed;
+    left: 425px;
+    top: 25px;
+}
+
+.homeRand {
+    left:50px;
+}
+
+.indivLabel {
+    border: #26de52 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.textHome {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.likedText{
+    visibility: hidden;
+    color: #26de52;
+    align-items: center;
+}
+
+.imgWrap:hover .likedText{
+    visibility: visible;
+    background-color: #26de51c7;
+    color:rgba(0, 0, 0, 0.877);
+    border-color: rgb(196, 255, 137);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 77px;
+    position: inherit;
+    top: 5px;
+    left:496px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* FOR HOME ICON */
+.header-image-container {
+    width: 90px;
+    height: 90px;
+    left: 10px;
+    top: 20px;
+    position: fixed;
+}
+
+.homeText{
+    visibility: hidden;
+    color: #26de52;
+    align-items: center;
+}
+
+.header-image-container:hover .homeText {
+    visibility: visible;
+    background-color: #26de51c7;
+    color:black;
+    border-color: chartreuse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 60px;
+    position: inherit;
+    text-align: center;
+    top:5px;
+    left:20px;
+    cursor: pointer;
+}
+
+.homeWrap{
+    left: 80px;
+    position: fixed;
+}
+
+.top {
+    background-color: black;
+    color: #26de52;
+    margin: 30px 50px 30px 50px;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    width: 460px;
+}
+
+#gatheredPlaylists {
+    border: black 5px solid;
+    height: fit-content;
+}
+
+.rank {
+    width:30px;
+}
+
+.chart {
+    width:200px;
+}
+
+.decorate {
+    background-color: black;
+    position: absolute;
+    display: block;
+    position:fixed;
+}
+
+.sides {
+    width: 60px;
+    top: 110px;
+    height: -webkit-fill-available;
+    right: 0px;
+
+}
+
+.left {
+    left: 0px;
+}
+
+.bottom {
+    width: -webkit-fill-available;
+    left: 0px;
+    height: 26px;
+    bottom: 0px;
+    background-color: black;
+    position: fixed;
+}
+
+.diffCountry {
+    left:50px;
+    position:fixed
+}
+
+#gatheredPlaylists {
+    margin: 30px 160px 30px 50px;
+    background-color: black;
+    border-radius: 10px;
+    border: #26de52 2px solid;
+    width: 450px;
+    left: 50px;
+    text-align: center;
+    height: fit-content;
+
+}
+
+.plsylistTxt {
+    color: #26de52;
+    margin:10px;
+    font-size: 15px;
+}
+
+.displayPlaylists {
+    margin: 5px 5px 10px 10px;
+    display: inline-flex;
+    border:#26de52 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    align-items: center;
+}
+
+.searched, .playlistDescription{
+    font-size: 20px;
+}
+
+.playlistDescription:hover {
+    cursor: pointer;
+}
+
+.playlistDescription {
+    width:30px;
+}
+
+.searched {
+    margin: 20px;
+    padding:10px;
+}
+
+.HiddenText{
+    visibility: hidden;
+    color: #26de52;
+    position: fixed;
+    width: 100px;
+}
+
+.helpDescription {
+    margin-top: 90px;
+    padding: 10px 5px 10px 5px;
+}
+
+.containerDescription:hover .HiddenText {
+    visibility: visible;
+    background-color: #26de51c7;
+    color:black;
+    border-color: #26de51c7;
+}
+
+.descriptionPlay {
+    left:600px;
+}
+
+.containerHelp {
+    width:100px;
+    position:fixed;
+    right:70px;
+    
+}
+
+.containerHelp img {
+    top:150px;
+    cursor: help;
+}
+.containerHelp:hover .HiddenText{
+    visibility: visible;
+    background-color: #26de51c7;
+    color:black;
+    border-color: #26de52;
+    font-size: 15px;
+}
+
+.play {
+    background-color: #26de52;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    margin: 10px;
+}
+
+.explainLayout {
+    width: 389px;
+}
+
+.indivPlaylist {
+    display: inline-flex;
+    margin: 5px;
+    right: 20px;
+    width: 391px;
+}
+.creatorName {
+    width:200px;
+}
+
+.playlistName {
+    width:150px;
+}
+
+.containerMusicPlayer {
+    background-color: black;
+    position: fixed;
+    right: 170px;
+    top: 170px;
+    width: 370px;
+    height: 450px;
+    border-radius: 10px;
+    border:#26de51c7 2px solid;
+}
+
+.songInfo {
+    margin: 0px 10px 0px 10px
+}
+
+.txt {
+    color: #26de52;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.coverImg {
+    width: 370px;
+    height: 210px;
+}
+
+.coverImage {
+    width: 200px;
+    height: 200px;
+    top: 260px;
+    right: 280px;
+}
+
+.mediaOptions {
+    margin: 10px;
+    border-radius: 10px;
+    border: #26de52 1px solid;
+    align-content: center;
+    position: relative;
+}
+
+.chosenPlaylist {
+    padding: 10px;
+    margin-top: 30px;
+    border: #26de52 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.idk {
+    border: #26de52 1px solid;
+    margin: 30px 0px 20px 0px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mediaOptions .fa {
+    color: #26de52;
+    padding:20px;
+}
+
+.media {
+    margin: 0px 18px 0px 18px;
+}
+
+/* liked page */
+.NOTYET {
+    position:fixed;
+    left:200px;
+    top:200px;
+    font-size: 30px;
+}
+
+.likedButton {
+    background-color: black;
+    color:#26de52;
+    box-shadow: #26de52;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.askOtherCountry {
+    left: 2px;
+    position: absolute;
+    margin: 50px;
+    top: 390px;
+    display: inline-flex;
+}
+
+#searchCountryFunct {
+    border-color: #26de52;
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    width: 250px;
+}
+
+#searchCountryButton {
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    cursor: pointer;
+}
+
+.diffCountry {
+    left: 161px;
+    width: 300px;
+    top: 550px;
+    position:static;
+    margin:10px;
+}
+
+#countryChoose {
+    color: #26de52;
+    background: black;
+    border-color: #26de52;
+    border-radius: 10px;
+}

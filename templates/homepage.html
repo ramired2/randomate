@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block content %}
+      <div class="instructions">
+        <div class="info">
+          <h1 class="title">A Friendly Quick Guide...</h1>
+          <p class="description textHome">Welcome to Randomate!</p>
+          <p class="description textHome">Randomate makes discovering new music 
+            quick and easy! The only limitation is your imagination. 
+            Finding discovering new music can now be done in four easy steps.
+          </p>
+          <ol class = "description textHome" class="list">
+            <li>Enter a word or phrase into the search bar</li>
+            <li>Click the search button</li>
+            <li>Browse the suggested playlists</li>
+            <li>Enjoy new music!</li>
+          </ol>
+          <p class="description textHome">To the right you can see the top tracks 
+            of the US! If you would like to see another county's top tracks select
+            a country in the drop down menu in the section below.
+          </p>
+        </div>
+      </div>
+
+      <div class="top">
+        <div class="info">
+        <h1 class="Title">Top US Songs</h1>
+        <div id="gatheredData ">
+            <div class="indivLabel">
+              <p class="textHome rank">Rank</p>
+              <p class="textHome chart">Song</p> 
+              <p class="textHome chart">Artist</p> 
+              <p class="textHome chart">Current Streams</p>
+            </div>
+            {% for dataChart in dataCharts%}
+            <div class="indivLabel">
+              <p class="textHome rank">{{ dataChart.rank }}</p>
+              <p class="textHome chart">{{ dataChart.song }}</p> 
+              <p class="textHome chart">{{ dataChart.artist }}</p> 
+              <p class="textHome chart">{{ dataChart.streams }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="askOtherCountry top">
+        <div class="info">
+          <h1 class="Title">Interested in another Country's Top Tracks?</h1>
+          <p class="indivLabel searchCountryTxt">Choose a country from the menu below and click the button!</p>
+          <div class="search diffCountry">
+            <form class="formSearch" method="POST">
+            <!-- <input id="searchCountryFunct" type="text" placeholder="Enter a country" name="p">
+            <button id="searchCountryButton" type="submit" value="Go"><i class="fa fa-search"></i></button> -->
+            <!-- </form> -->
+            
+            <!-- <div class="filter-input-container"> -->
+              <label for="countryChoose"></label>
+              <!-- <div class="filter-input-element"> -->
+                <select id="countryChoose" class="filter-input" name="p">
+                  <option selected value="">Choose a country</option>
+                  {% for country in countries %}
+                  <option value="{{ country.abbreviation }} ">{{ country.country }}</option>
+                  {% endfor %}
+                </select>
+              <!-- </div> -->
+              <button id="searchCountryButton" type="submit" value="Go"><i class="fa fa-search"></i></button>
+            <!-- </div> -->
+
+            </form>
+          </div>
+        </div>
+      </div>
+{% endblock content %}

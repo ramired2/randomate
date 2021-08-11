@@ -70,8 +70,9 @@ img {
 }
 
 #searchFunct {
-    position: fixed;
-    right: 150px;
+    position: absolute;
+    right: 210px;
+    margin: 10px;
     border-color: #26de52;
     border-radius: 10px;
     color: #26de52;
@@ -86,7 +87,6 @@ img {
 }
 
 #searchButton {
-    position: fixed;
     right: 110px;
     border-radius: 10px;
     color: #26de52;
@@ -327,8 +327,10 @@ img {
 .HiddenText{
     visibility: hidden;
     color: #26de52;
-    position: fixed;
+    position: absolute;
     width: 100px;
+    padding: 7px;
+    border-radius: 7px;
 }
 
 .helpDescription {
@@ -342,10 +344,10 @@ img {
     color:black;
     border-color: #26de51c7;
 }
-
+/* 
 .descriptionPlay {
     left:600px;
-}
+} */
 
 .containerHelp {
     width:100px;
@@ -516,4 +518,17 @@ img {
     background: black;
     border-color: #26de52;
     border-radius: 10px;
+}
+#inputNum {
+    border-color: #26de52;
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    width: 100px;
+    margin: 10px 0px 10px 10px;
+}
+
+.formSearch {
+    width:400px;
 }

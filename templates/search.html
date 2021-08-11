@@ -27,7 +27,11 @@
             <!-- <img  class = "plsylistTxt playDescription" src="imgs/home.png" alt="Description of Playlist"> -->
             <div class="containerDescription">
               <p class="plsylistTxt playlistDescription">...</p>
-              <p class="descriptionPlay HiddenText">{{ dataPlaylists.description }}</p>
+              {% if dataPlaylists.description == "" %}
+                <p class="descriptionPlay HiddenText">No description</p>
+              {% else %}
+                <p class="descriptionPlay HiddenText">{{ dataPlaylists.description }}</p>
+              {% endif %}
           </div>
         </div>
         

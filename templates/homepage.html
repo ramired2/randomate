@@ -23,7 +23,7 @@
 
       <div class="top">
         <div class="info">
-        <h1 class="Title">Top US Songs</h1>
+        <h1 class="Title">Top {{ selected }} Songs</h1>
         <div id="gatheredData ">
             <div class="indivLabel">
               <p class="textHome rank">Rank</p>
@@ -61,6 +61,7 @@
                   {% for country in countries %}
                   <option value="{{ country.abbreviation }} ">{{ country.country }}</option>
                   {% endfor %}
+                  <input id="inputNum" type="text" placeholder="number less 20" name="n">
                 </select>
               <!-- </div> -->
               <button id="searchCountryButton" type="submit" value="Go"><i class="fa fa-search"></i></button>

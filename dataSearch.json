@@ -3,180 +3,200 @@
         "collaborative": false,
         "description": "",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/6jgSmmABoLOh3p0DDnXjRB"
+            "spotify": "https://open.spotify.com/playlist/1PhZZGRZz6t4J7oJxcbhas"
         },
-        "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB",
-        "id": "6jgSmmABoLOh3p0DDnXjRB",
+        "href": "https://api.spotify.com/v1/playlists/1PhZZGRZz6t4J7oJxcbhas",
+        "id": "1PhZZGRZz6t4J7oJxcbhas",
         "images": [
             {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebbe9230e622645cddb724eba42",
-                "width": null
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27306a4fa4f796f568d5830ebc2ab67616d0000b2735a8c24ce4b727c3599690973ab67616d0000b273c575b57bde5ad5dbf9862f14ab67616d0000b273f2a5d3d1138b20af5f816480",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27306a4fa4f796f568d5830ebc2ab67616d0000b2735a8c24ce4b727c3599690973ab67616d0000b273c575b57bde5ad5dbf9862f14ab67616d0000b273f2a5d3d1138b20af5f816480",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27306a4fa4f796f568d5830ebc2ab67616d0000b2735a8c24ce4b727c3599690973ab67616d0000b273c575b57bde5ad5dbf9862f14ab67616d0000b273f2a5d3d1138b20af5f816480",
+                "width": 60
             }
         ],
-        "name": "JHOPE X PTD \ud83c\udfd6",
+        "name": "cool",
         "owner": {
-            "display_name": "Bangtan Boys SV",
+            "display_name": "coteneige",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/n0tdr32sj9xf8k9shgq5ibenk"
+                "spotify": "https://open.spotify.com/user/coteneige"
             },
-            "href": "https://api.spotify.com/v1/users/n0tdr32sj9xf8k9shgq5ibenk",
-            "id": "n0tdr32sj9xf8k9shgq5ibenk",
+            "href": "https://api.spotify.com/v1/users/coteneige",
+            "id": "coteneige",
             "type": "user",
-            "uri": "spotify:user:n0tdr32sj9xf8k9shgq5ibenk"
+            "uri": "spotify:user:coteneige"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "NTksNTRlZjlmN2FmYjEyMjc1YTMxYTZhZjFhOTNjOTFiZmY1YTA5YzgzMA==",
+        "snapshot_id": "MTA3OSwyOGQ0OTg1MzQ5MDhkYjFlNTE5OTk0ZWNhMTUwNTY3ZWFmZTEyM2Q3",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB/tracks",
-            "total": 34
+            "href": "https://api.spotify.com/v1/playlists/1PhZZGRZz6t4J7oJxcbhas/tracks",
+            "total": 952
         },
         "type": "playlist",
-        "uri": "spotify:playlist:6jgSmmABoLOh3p0DDnXjRB"
+        "uri": "spotify:playlist:1PhZZGRZz6t4J7oJxcbhas"
+    },
+    {
+        "collaborative": false,
+        "description": "Lo m\u00e1s alternativo para una mam\u00e1 muy mo-der-na.",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWVuraZzTY0LP"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWVuraZzTY0LP",
+        "id": "37i9dQZF1DWVuraZzTY0LP",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706f000000035df3141ddeb10a4a9dd2d45a",
+                "width": null
+            }
+        ],
+        "name": "mam\u00e1 cool",
+        "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYyODcwODUzOSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWVuraZzTY0LP/tracks",
+            "total": 70
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWVuraZzTY0LP"
     },
     {
         "collaborative": false,
         "description": "",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/7gAslB0vPVQMKqIU83d1ch"
+            "spotify": "https://open.spotify.com/playlist/1AyxaqIa6Nh4uYfx2LLuDx"
         },
-        "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch",
-        "id": "7gAslB0vPVQMKqIU83d1ch",
+        "href": "https://api.spotify.com/v1/playlists/1AyxaqIa6Nh4uYfx2LLuDx",
+        "id": "1AyxaqIa6Nh4uYfx2LLuDx",
         "images": [
             {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebba746a062ff3cc5557ad5e779",
-                "width": null
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2732cbb5f97a0853d1c7cbbe231ab67616d0000b273459d675aa0b6f3b211357370ab67616d0000b273b361ce46dbadbf8a11081b60ab67616d0000b273f46b5e01e02ab8247be49978",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2732cbb5f97a0853d1c7cbbe231ab67616d0000b273459d675aa0b6f3b211357370ab67616d0000b273b361ce46dbadbf8a11081b60ab67616d0000b273f46b5e01e02ab8247be49978",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2732cbb5f97a0853d1c7cbbe231ab67616d0000b273459d675aa0b6f3b211357370ab67616d0000b273b361ce46dbadbf8a11081b60ab67616d0000b273f46b5e01e02ab8247be49978",
+                "width": 60
             }
         ],
-        "name": "PTD + JHOPE",
+        "name": "post workout cool down",
         "owner": {
-            "display_name": "c!n",
+            "display_name": "Marley Murray",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/31jw43oe2krdspdvyqvo62q3yd34"
+                "spotify": "https://open.spotify.com/user/1212055760"
             },
-            "href": "https://api.spotify.com/v1/users/31jw43oe2krdspdvyqvo62q3yd34",
-            "id": "31jw43oe2krdspdvyqvo62q3yd34",
+            "href": "https://api.spotify.com/v1/users/1212055760",
+            "id": "1212055760",
             "type": "user",
-            "uri": "spotify:user:31jw43oe2krdspdvyqvo62q3yd34"
+            "uri": "spotify:user:1212055760"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "MTU3LDAwMzVhMzVkYjBhZmE0YmU1NGQzMWJlOGQ2ZDQzNjczMTEyMWZlODE=",
+        "snapshot_id": "NjcsMmVlYmY0NTQ0ZTZkMWJjMDdkNmFiZjNhYTRhY2Y4MDUyYzY4YzljNg==",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch/tracks",
-            "total": 48
+            "href": "https://api.spotify.com/v1/playlists/1AyxaqIa6Nh4uYfx2LLuDx/tracks",
+            "total": 80
         },
         "type": "playlist",
-        "uri": "spotify:playlist:7gAslB0vPVQMKqIU83d1ch"
+        "uri": "spotify:playlist:1AyxaqIa6Nh4uYfx2LLuDx"
     },
     {
         "collaborative": false,
-        "description": "",
+        "description": "K'ID = Korean ID. Welcome to the K-Rock anthem! (Cover: NIve(\ub2c8\ube0c)) (\ud56b\ud55c \uad6d\ub0b4 \ub85d\uc74c\uc545\uc744 \ub9cc\ub098\ubcf4\uc138\uc694!)",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/6KdDdkjD5I3ObRqrc4TKNt"
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX2SFBzpAPi7n"
         },
-        "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt",
-        "id": "6KdDdkjD5I3ObRqrc4TKNt",
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2SFBzpAPi7n",
+        "id": "37i9dQZF1DX2SFBzpAPi7n",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebb1524b179a5134a2e06bcb9e9",
+                "url": "https://i.scdn.co/image/ab67706f00000003388fbf32e0b78e2c8c00e9fa",
                 "width": null
             }
         ],
-        "name": "j-hope's Favorite Tracks",
+        "name": "Cool K'IDs Rock",
         "owner": {
-            "display_name": "BTS",
+            "display_name": "Spotify",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/bighitktm"
+                "spotify": "https://open.spotify.com/user/spotify"
             },
-            "href": "https://api.spotify.com/v1/users/bighitktm",
-            "id": "bighitktm",
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
             "type": "user",
-            "uri": "spotify:user:bighitktm"
+            "uri": "spotify:user:spotify"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "MTYxLGU2NDZkNTcyOWNkOTlkZjFlYjg3ZWU0MWEyOGNmNzNhOTA5YjQwM2U=",
+        "snapshot_id": "MTYyODcwODUyNiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt/tracks",
-            "total": 21
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX2SFBzpAPi7n/tracks",
+            "total": 50
         },
         "type": "playlist",
-        "uri": "spotify:playlist:6KdDdkjD5I3ObRqrc4TKNt"
+        "uri": "spotify:playlist:37i9dQZF1DX2SFBzpAPi7n"
     },
     {
         "collaborative": false,
-        "description": "From lives, interviews, runs, tweets, magazines, spotify&#x27;s official list of Hobi &amp; other media. Organized from the newest to the oldest song.",
+        "description": "All the coolest jazz cats",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/22cNd3Oj28hAGmI4x2Fe8p"
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWTG7FCdM1HiA"
         },
-        "href": "https://api.spotify.com/v1/playlists/22cNd3Oj28hAGmI4x2Fe8p",
-        "id": "22cNd3Oj28hAGmI4x2Fe8p",
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTG7FCdM1HiA",
+        "id": "37i9dQZF1DWTG7FCdM1HiA",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebbedd56d34b9b3bc9b710455ed",
+                "url": "https://i.scdn.co/image/ab67706f00000003220c01bbe214bda1ea2e3262",
                 "width": null
             }
         ],
-        "name": "Jhope's  playlist \ud83c\udf3b (Updated)",
+        "name": "Cool Jazz",
         "owner": {
-            "display_name": "Mile \ud83c\udf3b",
+            "display_name": "Spotify",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/milena.sfarcic"
+                "spotify": "https://open.spotify.com/user/spotify"
             },
-            "href": "https://api.spotify.com/v1/users/milena.sfarcic",
-            "id": "milena.sfarcic",
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
             "type": "user",
-            "uri": "spotify:user:milena.sfarcic"
+            "uri": "spotify:user:spotify"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "Mjk0LDRmZGQ0YTdlZjhkMTYxNDI1N2NhZDBiOWQzNTRhOWY3YTQ5YjRkZjc=",
+        "snapshot_id": "MTYyODI1MjQ1NywwMDAwMDAwMzAwMDAwMTdiMWI2OGM5NzEwMDAwMDE3YjFiNjg3Zjhj",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/22cNd3Oj28hAGmI4x2Fe8p/tracks",
-            "total": 121
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWTG7FCdM1HiA/tracks",
+            "total": 40
         },
         "type": "playlist",
-        "uri": "spotify:playlist:22cNd3Oj28hAGmI4x2Fe8p"
-    },
-    {
-        "collaborative": false,
-        "description": "Playlist para apoyar principalmente el trabajo de Jung HoSeok y otras canciones de BTS.",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/4sjeWYuKK5R89UKqCxRMt9"
-        },
-        "href": "https://api.spotify.com/v1/playlists/4sjeWYuKK5R89UKqCxRMt9",
-        "id": "4sjeWYuKK5R89UKqCxRMt9",
-        "images": [
-            {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebba219f01438db884c1ff9a271",
-                "width": null
-            }
-        ],
-        "name": "JHOPE - BTS",
-        "owner": {
-            "display_name": "@BTS_twt O",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/11177737725"
-            },
-            "href": "https://api.spotify.com/v1/users/11177737725",
-            "id": "11177737725",
-            "type": "user",
-            "uri": "spotify:user:11177737725"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "MjQ3LDY1YmY3NGYxZmY4MzhlNzhkYzA4MzQ3OWI1MmM5MmJmMTY1MTM1MDE=",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/4sjeWYuKK5R89UKqCxRMt9/tracks",
-            "total": 51
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:4sjeWYuKK5R89UKqCxRMt9"
+        "uri": "spotify:playlist:37i9dQZF1DWTG7FCdM1HiA"
     }
 ]

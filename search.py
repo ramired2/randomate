@@ -3,6 +3,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
+from bs4 import BeautifulSoup
 import pprint
 import spotipy.util as util
 from urllib.request import urlopen, Request
@@ -47,14 +48,20 @@ def writeFile (jsonInfo):
     jsonFile.write(jsonString)
     jsonFile.close()
 
-def getTracks(playlistId):
-    # request tom's microservice
+def getTracks(playlistId, creatorId):
+    # request tom's microservice, for now json file w specific info
+    URL = "http://flip1.engr.oregonstate.edu:8000/playlist?playlistId="+playlistId
+    # will be used
     #input the playlist id in the link
     # receive = requests.get('URL UNKNOWN YET')
+    req = Request(URL, headers={'User-Agent': 'Mozilla/5.0'})
+    webpage = urlopen(req).read()
+    soup = BeautifulSoup(webpage, 'html.parser')
+    print("THE REQUESTED INFO")
+    print(soup)
     #put the info in a json file
     #remove uneccesary data
     #should open file in randomate
     # jsonFile = open("dataSearch.json", "w")
     # jsonFile.write(jsonString)
     # jsonFile.close()
-    return 0

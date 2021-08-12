@@ -46,3 +46,15 @@ def writeFile (jsonInfo):
     jsonFile = open("dataSearch.json", "w")
     jsonFile.write(jsonString)
     jsonFile.close()
+
+def getTracks(playlistId):
+    # request tom's microservice
+    #input the playlist id in the link
+    # receive = requests.get('URL UNKNOWN YET')
+    #put the info in a json file
+    #remove uneccesary data
+    #should open file in randomate
+    # jsonFile = open("dataSearch.json", "w")
+    # jsonFile.write(jsonString)
+    # jsonFile.close()
+    return 0

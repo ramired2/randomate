@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='homepage_style.css')}}">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="icon" href="http://example.com/favicon.png">
   </head>
   <body>
 
@@ -24,12 +25,10 @@
           <h1 class = "site-title" class="head-item"><a href="https://open.spotify.com/" target="_blank" class= "spotify">  Spotify  </a></h1>
           
         </div>
-          <!-- <h1>  |</h1>  -->
           <div class="search" class="head-item">
             <form class="formSearch" method="GET" method="POST">
             <input id="searchFunct" type="text" placeholder="Enter a Word" name="q">
             <input id="inputNum" type="text" placeholder="number less 20" name="size">
-            <!-- <input id="inputNum" type="text" placeholder="Enter a number less than 20" name="n"> -->
             <button id="searchButton" type="submit" value="Go"><i class="fa fa-search"></i></button>
           </form>
           </div>
@@ -43,7 +42,8 @@
         <img class = "helpImg" src="{{ url_for('static', filename='help.png')}}" 
             alt="how to use randomate">
         <p class="HiddenText helpDescription">To use randomate enter a word or 
-          phrase into the top right search box, then press go and receive a list
+          phrase into the top right search box, if you want, you can also include
+           a number of items you want. Then press the search button and receive a list
            of playlists to discover! To see the playlist description hover over 
           "...". To see the spotify page for that playlist, click on the heart 
           button to the left of the playlist name. If you would like to see the 

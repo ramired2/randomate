@@ -40,22 +40,52 @@
         {% endfor %}
         </div>
 
+        <div class="choosePlaylist">
+          <div class="info containerInfo">
+            <h1 class="Title">If you want to see the tracks of a specific playlist... click on the drop menu below</h1>
+            <p class="indivLabel pickPlaylist">THIS IS THE SERVICE I WILL BE USING FROM TOM"S MICROSERVICE</p>
+            <div class="containerPlaylistChoose">
+              <form class="formChoose" method="GET POST">
+              <label for="pickPlay"></label>
+              <!-- <div class="filter-input-element"> -->
+                <select id="pickPlay" class="pick" name="playlist">
+                  <option selected value="">Choose a playlist to view</option>
+                  {% for dataPlaylists in dataPlaylists %}
+                  <!-- value had playlist id and creator id separated by a space, use .split() in python to separate -->
+                  <option value='{{ dataPlaylists.id }} {{ dataPlaylists.owner["id"] }}'>{{ dataPlaylists.name }}</option>
+                  {% endfor %}
+                </select>
+              <!-- </div> -->
+              <button id="playlistChooseButton" type="submit" value="Choose"><i class="fa fa-search"></i></button>
+            </form>
+            </div>
+            <div class="displayPlaylists indivPlaylist indivTrack">
+              <p class="plsylistTxt track songTitle ">Track</p>
+              <p class="plsylistTxt track artistCreator ">Album</p>
+              <p class="plsylistTxt track creatorName ">Artist</p>
+            </div>
+            {% for songs in songs %}
+            <div class="displayPlaylists indivPlaylist indivTrack">
+                <p class="plsylistTxt track songTitle ">{{ songs.track["name"] }}</p>
+                <p class="plsylistTxt track artistCreator ">{{ songs.track["album"].name }}</p>
+                <p class="plsylistTxt track creatorName ">{{ songs.creator }}</p>
+          </div>
+          {% endfor %}
+
+          </div>
+        </div>
+
         
 
-        <div class="containerMusicPlayer">
-          <!-- get chosen playlist and use tom's service to get the tracks
-              from inside the playlist -->
+        <!-- <div class="containerMusicPlayer">
+           get chosen playlist and use tom's service to get the tracks
+              from inside the playlist
           <p class="chosenPlaylist txt">
-            Now playing from playlist name</p>
+            Tracks from { playlist name }</p>
           <div class="coverImg">
             <img class="coverImage" src="{{ url_for('static', filename='like.png')}}" alt="temp cover image">
           </div>
           <div class="mediaOptions">
-            <!-- <audio controls>
-              <source src="temp.m4a" type="audio/mpeg">
-              Your browser does not support the audio tag.
-            </audio> -->
-            <!-- <audio src="temp.m4a" id="song"></audio> -->
             <i class="fa fa-step-backward media"></i>
             <i class="fa fa-play-circle media"></i>
             <i class="fa fa-play-circle-o media"></i>
@@ -65,5 +95,5 @@
             <p class="idk"> <span class="currSong txt">
               song name</span> <span class="artistName txt">artist name</span></p>
           </div>
-        </div>
+        </div> -->
 {% endblock content %}

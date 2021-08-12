@@ -18,10 +18,10 @@ html {
 }
 
 img {
-    position: fixed;
+    position: absolute;
     width: 80px;
     height: 80px;
-    top: 25px;
+    /* top: 25px; */
 }
 
 .site-title {
@@ -133,9 +133,10 @@ img {
     left: 50px;
     width: 1000px;
     right: 50px;
-    height:600px;
+    height: 520px;
     overflow-y: scroll;
-    width: auto;
+    /* width: auto; */
+    width: -webkit-fill-available;
 }
 
 /* FOR LIKED SONGS */
@@ -281,7 +282,7 @@ img {
 }
 
 #gatheredPlaylists {
-    margin: 30px 160px 30px 50px;
+    margin: 30px 40px 30px 40px;
     background-color: black;
     border-radius: 10px;
     border: #26de52 2px solid;
@@ -289,7 +290,7 @@ img {
     left: 50px;
     text-align: center;
     height: fit-content;
-
+    padding: 10px;
 }
 
 .plsylistTxt {
@@ -357,7 +358,7 @@ img {
 }
 
 .containerHelp img {
-    top:150px;
+    top:15px;
     cursor: help;
 }
 .containerHelp:hover .HiddenText{
@@ -397,13 +398,14 @@ img {
 
 .containerMusicPlayer {
     background-color: black;
-    position: fixed;
-    right: 170px;
-    top: 170px;
+    position: relative;
+    right: 100px;
+    top: 30px;
     width: 370px;
     height: 450px;
     border-radius: 10px;
-    border:#26de51c7 2px solid;
+    border: #26de51c7 2px solid;
+    margin:10px;
 }
 
 .songInfo {
@@ -531,4 +533,44 @@ img {
 
 .formSearch {
     width:400px;
+}
+
+.choosePlaylist {
+    border: #26de52 1px solid;
+    color: #26de52;
+    border-radius: 10px;
+    background-color: black;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+    width: 700px;
+}
+
+.pick {
+    color:#26de52;
+    background-color: black;
+    border: 1px #26de52 solid;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+}
+
+#playlistChooseButton {
+    border-radius: 10px;
+    color: #26de52;
+    background-color: black;
+    border-color: #26de52;
+    cursor: pointer;
+}
+
+.containerInfo {
+    width: fit-content;
+}
+
+.indivTrack {
+    width: 620px;
+}
+
+.track {
+    width: 250px;
+    text-align: center;
 }

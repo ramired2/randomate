@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request
 app = Flask(__name__)
 
 import json
-from search import processSearch
+from search import processSearch, getTracks
 from top import read
 
 @app.route("/")
@@ -11,12 +11,26 @@ def homepage():
 
     with open("countriesSpotify.json", 'r') as l:
             countries = json.loads(l.read())
-    country = 'US'
+    
+    # country = 'US'
+
+    # playlist = request.args.get("playlist")
+    # print(playlist)
+    # if playlist:
+        # print(playlist)
+        # playlist = playlist.split()
+        # plylist id --> print(playlist[0])
+        # creator id --> print(playlist[1])
+        # getTracks()
     
     # when entering diff country
     # json file that has countries n abbrevs needed
-    p = request.form.get('p')
-    n = request.form.get('n')
+    p = request.args.get('p')
+    n = request.args.get('n')
+
+    print(p)
+    print(n)
+
     if p and n:
         n=int(n)
         country = p
@@ -26,33 +40,91 @@ def homepage():
         dataCharts = read(p.strip(), 10)
     else:
         dataCharts = read('us', 10)
+        country='us'
 
     # when entering playlist search
     q = request.args.get("q")
     size = request.args.get("size")
-    # print(size)
+
+
+    # to track current p and size for if you choose a playlist tracks
+    if q:
+        jsonInfo = []
+        jsonInfo.append({'p':q, 'size':size})
+        jsonString = json.dumps(jsonInfo, indent=4)
+        jsonFile = open("dataLastSearch.json", "w")
+        jsonFile.write(jsonString)
+        jsonFile.close()
+
+
     if q and size:
         size=int(size)
         print(size)
         processSearch(q, size)
         
         with open("dataSearch.json", 'r') as j:
-            dataPlaylists = json.loads(j.read())
-        return render_template("search.html", title="Search "+q, search=q, dataPlaylists=dataPlaylists)
+            dataPlaylists = json.loads(j.read())   
+        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists)
     elif q:
         print("just q")
         processSearch(q, 5)
         
         with open("dataSearch.json", 'r') as j:
             dataPlaylists = json.loads(j.read())
-        return render_template("search.html", title="Search "+q, search=q, dataPlaylists=dataPlaylists)
+        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists)
+
+    playlist = request.args.get("playlist")
+    print("playlist is: ")
+    print(playlist)
+    # so far only caters to a single query with no size, need to add size aspect later
+    if playlist:
+        playlist = playlist.split()
+        print(playlist[0])
+        print(playlist[1])
+
+
+        with open("dataLastSearch.json", 'r') as x:
+            lastSearch = json.loads(x.read())
+            for jsonObj in x:
+                searchDict = json.loads(jsonObj)
+                lastSearch.append(searchDict)
+            
+            for serch in lastSearch:
+                q = json.dumps(serch["p"])
+                q = q.replace('"','')
+                size = json.dumps(serch["size"])
+                size = size.replace('"','')
+                print(q)
+                print(size)
+
+        # call function to do search for getTracks
+        with open("dataTracks.json", 'r') as s:
+            songs = json.loads(s.read())
+        
+        # if only q then this
+        if q and size:
+            # size = size.strip()
+            size = int(size)
+            processSearch(q, size)
+            with open("dataSearch.json", 'r') as j:
+                dataPlaylists = json.loads(j.read())
+
+            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs)
+
+        # else if q and size
+        else:
+            processSearch(q, 5)
+            with open("dataSearch.json", 'r') as j:
+                dataPlaylists = json.loads(j.read())
+
+            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs)
 
     return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries, selected=country.upper())
 
-# specific page for getting playlists, must input number if using this link
+# specific page for getting playlists, must add number if using this link
 @app.route("/search/<query>/<num>", methods=["GET", "POST"])
 def search(query, num):
-
+    
     q = request.args.get("q")
     size = request.args.get("size")
 
@@ -82,8 +154,28 @@ def search(query, num):
         return render_template("search.html", title="Search "+query.upper(), search=query, dataPlaylists=dataPlaylists)
 
 
-# FOR ERRORS
+# link to just receive the info for playlists
+@app.route("/info/playlist/<word>/<size>", methods=["GET", "POST"])
+def info(word, size):
+    processSearch(word, size)
+    with open("dataSearch.json", 'r') as j:
+            infos = json.loads(j.read())
+    return render_template("info.html", infos=json.dumps(infos, indent=4))
+    # return json.dumps(infos, indent=4)
 
+# link to just receive the info for x country top tracks
+@app.route("/info/top/<country>/<num>", methods=["GET", "POST"])
+def infoCountry(country, num):
+    num = int(num)
+    infos = read(country, num)
+    # with open("dataTop.json", 'r') as j:
+    #         infos = json.loads(j.read())
+    return render_template("info.html", infos=json.dumps(infos, indent=4))
+    # return json.dumps(infos, indent=4)
+
+
+
+# FOR ERRORS
 @app.errorhandler(404)
 def not_found(error):
     q = request.args.get("q")

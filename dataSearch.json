@@ -3,90 +3,18 @@
         "collaborative": false,
         "description": "",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/6jgSmmABoLOh3p0DDnXjRB"
+            "spotify": "https://open.spotify.com/playlist/4RK2A6ql5PuWMLI76LapY9"
         },
-        "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB",
-        "id": "6jgSmmABoLOh3p0DDnXjRB",
+        "href": "https://api.spotify.com/v1/playlists/4RK2A6ql5PuWMLI76LapY9",
+        "id": "4RK2A6ql5PuWMLI76LapY9",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebbe9230e622645cddb724eba42",
+                "url": "https://i.scdn.co/image/ab67706c0000bebbd5a55a309c6d1e1c0072787d",
                 "width": null
             }
         ],
-        "name": "JHOPE X PTD \ud83c\udfd6",
-        "owner": {
-            "display_name": "Bangtan Boys SV",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/n0tdr32sj9xf8k9shgq5ibenk"
-            },
-            "href": "https://api.spotify.com/v1/users/n0tdr32sj9xf8k9shgq5ibenk",
-            "id": "n0tdr32sj9xf8k9shgq5ibenk",
-            "type": "user",
-            "uri": "spotify:user:n0tdr32sj9xf8k9shgq5ibenk"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "NTksNTRlZjlmN2FmYjEyMjc1YTMxYTZhZjFhOTNjOTFiZmY1YTA5YzgzMA==",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/6jgSmmABoLOh3p0DDnXjRB/tracks",
-            "total": 34
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:6jgSmmABoLOh3p0DDnXjRB"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/7gAslB0vPVQMKqIU83d1ch"
-        },
-        "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch",
-        "id": "7gAslB0vPVQMKqIU83d1ch",
-        "images": [
-            {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebba746a062ff3cc5557ad5e779",
-                "width": null
-            }
-        ],
-        "name": "PTD + JHOPE",
-        "owner": {
-            "display_name": "c!n",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/31jw43oe2krdspdvyqvo62q3yd34"
-            },
-            "href": "https://api.spotify.com/v1/users/31jw43oe2krdspdvyqvo62q3yd34",
-            "id": "31jw43oe2krdspdvyqvo62q3yd34",
-            "type": "user",
-            "uri": "spotify:user:31jw43oe2krdspdvyqvo62q3yd34"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "MTU3LDAwMzVhMzVkYjBhZmE0YmU1NGQzMWJlOGQ2ZDQzNjczMTEyMWZlODE=",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/7gAslB0vPVQMKqIU83d1ch/tracks",
-            "total": 48
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:7gAslB0vPVQMKqIU83d1ch"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/6KdDdkjD5I3ObRqrc4TKNt"
-        },
-        "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt",
-        "id": "6KdDdkjD5I3ObRqrc4TKNt",
-        "images": [
-            {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebb1524b179a5134a2e06bcb9e9",
-                "width": null
-            }
-        ],
-        "name": "j-hope's Favorite Tracks",
+        "name": "Jimin's Favorite Tracks",
         "owner": {
             "display_name": "BTS",
             "external_urls": {
@@ -99,12 +27,166 @@
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "MTYxLGU2NDZkNTcyOWNkOTlkZjFlYjg3ZWU0MWEyOGNmNzNhOTA5YjQwM2U=",
+        "snapshot_id": "MjA4LDk2ZDY3N2IzYWJhZGNiYzlmNzYwMWU4ZTc5N2M1NTczMzkzYzZhMWU=",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/6KdDdkjD5I3ObRqrc4TKNt/tracks",
+            "href": "https://api.spotify.com/v1/playlists/4RK2A6ql5PuWMLI76LapY9/tracks",
             "total": 21
         },
         "type": "playlist",
-        "uri": "spotify:playlist:6KdDdkjD5I3ObRqrc4TKNt"
+        "uri": "spotify:playlist:4RK2A6ql5PuWMLI76LapY9"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4O5x5IY9LCwVdKDZCvn4gR"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4O5x5IY9LCwVdKDZCvn4gR",
+        "id": "4O5x5IY9LCwVdKDZCvn4gR",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "width": 60
+            }
+        ],
+        "name": "Jimin solos\ud83d\udc9b",
+        "owner": {
+            "display_name": "Mochi",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/31yuvfcqabwsrqcdhxrc567vat2u"
+            },
+            "href": "https://api.spotify.com/v1/users/31yuvfcqabwsrqcdhxrc567vat2u",
+            "id": "31yuvfcqabwsrqcdhxrc567vat2u",
+            "type": "user",
+            "uri": "spotify:user:31yuvfcqabwsrqcdhxrc567vat2u"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NzEsMWJiYzZkN2RkNzE1ZDM2MmY5YTE1MGJhODA1ODU4NTM3MDcxNThhNg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4O5x5IY9LCwVdKDZCvn4gR/tracks",
+            "total": 48
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4O5x5IY9LCwVdKDZCvn4gR"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7nZP4Jl3tBwVcDFHFLwe9q"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7nZP4Jl3tBwVcDFHFLwe9q",
+        "id": "7nZP4Jl3tBwVcDFHFLwe9q",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebb615b8bd665df62035beef404",
+                "width": null
+            }
+        ],
+        "name": "JIMIN",
+        "owner": {
+            "display_name": "Lele joon",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/21og6xx64kt6bnlyqycoswygy"
+            },
+            "href": "https://api.spotify.com/v1/users/21og6xx64kt6bnlyqycoswygy",
+            "id": "21og6xx64kt6bnlyqycoswygy",
+            "type": "user",
+            "uri": "spotify:user:21og6xx64kt6bnlyqycoswygy"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDI0LDdlZmUwZjcwNGM0YzYyNmU4ZDIzZWFlYWYyMTIwZjlkNjc0YzZiMDQ=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7nZP4Jl3tBwVcDFHFLwe9q/tracks",
+            "total": 42
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7nZP4Jl3tBwVcDFHFLwe9q"
+    },
+    {
+        "collaborative": false,
+        "description": "Playlist para apoyar principalmente el trabajo de Park Jimin.",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/5Q2KkGg7tgpGsBB0HAujgF"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5Q2KkGg7tgpGsBB0HAujgF",
+        "id": "5Q2KkGg7tgpGsBB0HAujgF",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebbb13cd9b639f483ed5249927f",
+                "width": null
+            }
+        ],
+        "name": "JIMIN - BTS",
+        "owner": {
+            "display_name": "@BTS_twt O",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/11177737725"
+            },
+            "href": "https://api.spotify.com/v1/users/11177737725",
+            "id": "11177737725",
+            "type": "user",
+            "uri": "spotify:user:11177737725"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NTEzLGVkNDliYTVkYzM5NWY3NGNhNGRhNGZmNTM4MjcwYWI1NDk0Y2ZmMzk=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/5Q2KkGg7tgpGsBB0HAujgF/tracks",
+            "total": 54
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5Q2KkGg7tgpGsBB0HAujgF"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7pQl2FNGcheakfkJociRlt"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7pQl2FNGcheakfkJociRlt",
+        "id": "7pQl2FNGcheakfkJociRlt",
+        "images": [
+            {
+                "height": null,
+                "url": "https://i.scdn.co/image/ab67706c0000bebb8dd4d795e92b813f2f87c5e2",
+                "width": null
+            }
+        ],
+        "name": "Filter by Jimin",
+        "owner": {
+            "display_name": "tirroner",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/6norn0g5pldf5zb4k6jgw5b8l"
+            },
+            "href": "https://api.spotify.com/v1/users/6norn0g5pldf5zb4k6jgw5b8l",
+            "id": "6norn0g5pldf5zb4k6jgw5b8l",
+            "type": "user",
+            "uri": "spotify:user:6norn0g5pldf5zb4k6jgw5b8l"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDIyLGE2M2EwOWFmYjcxYzgyZWNkOWE4ZGRiOTc3N2FmM2QwM2QxODMyYjU=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7pQl2FNGcheakfkJociRlt/tracks",
+            "total": 37
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7pQl2FNGcheakfkJociRlt"
     }
 ]

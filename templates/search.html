@@ -43,12 +43,14 @@
         <div class="choosePlaylist">
           <div class="info containerInfo">
             <h1 class="Title">If you want to see the tracks of a specific playlist... click on the drop menu below</h1>
-            <p class="indivLabel pickPlaylist">THIS IS THE SERVICE I WILL BE USING FROM TOM"S MICROSERVICE</p>
+            {% if chose != "" %}
+            <p class="indivLabel pickPlaylist">Now viewing tracks from <span><a href="https://open.spotify.com/playlist/{{ choseid }}" target="_blank" class="linkPl"> {{ chose }}</a></span></p>
+            {% endif %}
             <div class="containerPlaylistChoose">
               <form class="formChoose" method="GET POST">
               <label for="pickPlay"></label>
               <!-- <div class="filter-input-element"> -->
-                <select id="pickPlay" class="pick" name="playlist">
+                <select id="pickPlay" class="pick" name="playlist"> 
                   <option selected value="">Choose a playlist to view</option>
                   {% for dataPlaylists in dataPlaylists %}
                   <!-- value had playlist id and creator id separated by a space, use .split() in python to separate -->
@@ -58,42 +60,24 @@
               <!-- </div> -->
               <button id="playlistChooseButton" type="submit" value="Choose"><i class="fa fa-search"></i></button>
             </form>
+            
             </div>
+            {% if chose != "" %}
             <div class="displayPlaylists indivPlaylist indivTrack">
-              <p class="plsylistTxt track songTitle ">Track</p>
-              <p class="plsylistTxt track artistCreator ">Album</p>
-              <p class="plsylistTxt track creatorName ">Artist</p>
+              <p class="plsylistTxt track songTitle">Track</p>
+              <p class="plsylistTxt track artistCreator">Album</p>
+              <p class="plsylistTxt track creatorName">Artist</p>
             </div>
             {% for songs in songs %}
             <div class="displayPlaylists indivPlaylist indivTrack">
-                <p class="plsylistTxt track songTitle ">{{ songs.track["name"] }}</p>
-                <p class="plsylistTxt track artistCreator ">{{ songs.track["album"].name }}</p>
-                <p class="plsylistTxt track creatorName ">{{ songs.creator }}</p>
+              <!-- COMMENTED RN UNTIL I CLEAN THE INFO NEED ADD BRACKEST AGAIN-->
+                <p class="plsylistTxt track songTitle"><a href='https://open.spotify.com/track/{{ songs.id }}' target="_blank">{{ songs.name }}</a></p>
+                <p class="plsylistTxt track artistCreator"><a href='https://open.spotify.com/album/{{ songs.album["id"] }}' target="_blank">{{ songs.album["name"] }}</a></p>
+                <p class="plsylistTxt track creatorName"><a href='https://open.spotify.com/artist/{{ songs.artistId }}' target="_blank">{{ songs.artistName }}</a></p>
           </div>
           {% endfor %}
+          {% endif %}
 
           </div>
         </div>
-
-        
-
-        <!-- <div class="containerMusicPlayer">
-           get chosen playlist and use tom's service to get the tracks
-              from inside the playlist
-          <p class="chosenPlaylist txt">
-            Tracks from { playlist name }</p>
-          <div class="coverImg">
-            <img class="coverImage" src="{{ url_for('static', filename='like.png')}}" alt="temp cover image">
-          </div>
-          <div class="mediaOptions">
-            <i class="fa fa-step-backward media"></i>
-            <i class="fa fa-play-circle media"></i>
-            <i class="fa fa-play-circle-o media"></i>
-            <i class="fa fa-step-forward media"></i>
-          </div>
-            <div class="songInfo">
-            <p class="idk"> <span class="currSong txt">
-              song name</span> <span class="artistName txt">artist name</span></p>
-          </div>
-        </div> -->
 {% endblock content %}

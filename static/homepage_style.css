@@ -332,6 +332,7 @@ img {
     width: 100px;
     padding: 7px;
     border-radius: 7px;
+    font-size: 10px;
 }
 
 .helpDescription {
@@ -366,7 +367,7 @@ img {
     background-color: #26de51c7;
     color:black;
     border-color: #26de52;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .play {
@@ -478,6 +479,12 @@ img {
     box-shadow: #26de52;
 }
 
+.likedButton:hover {
+    background-color: #26de52;
+    color:black;
+    border-color: rgb(210, 237, 182);
+}
+
 .link:hover {
     cursor: pointer;
 }
@@ -573,4 +580,29 @@ img {
 .track {
     width: 250px;
     text-align: center;
+}
+
+.track a {
+    color:#26de52;
+    text-decoration: none;
+}
+
+.track a:hover {
+    color:#26de52;
+    text-decoration: underline;
+}
+
+.pickPlaylist {
+    font-size: 15px;
+}
+
+.linkPl {
+    color:#26de52;
+    text-decoration: none;
+    margin:5px;
+}
+
+.linkPl:hover {
+    color:#26de52;
+    text-decoration: underline;
 }

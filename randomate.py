@@ -48,6 +48,7 @@ def homepage():
 
 
     # to track current p and size for if you choose a playlist tracks
+    chose = ""
     if q:
         jsonInfo = []
         jsonInfo.append({'p':q, 'size':size})
@@ -64,23 +65,24 @@ def homepage():
         
         with open("dataSearch.json", 'r') as j:
             dataPlaylists = json.loads(j.read())   
-        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists)
+        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, chose=chose.capitalize())
     elif q:
         print("just q")
         processSearch(q, 5)
         
         with open("dataSearch.json", 'r') as j:
             dataPlaylists = json.loads(j.read())
-        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists)
+        return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, chose=chose.capitalize())
 
     playlist = request.args.get("playlist")
     print("playlist is: ")
     print(playlist)
-    # so far only caters to a single query with no size, need to add size aspect later
     if playlist:
         playlist = playlist.split()
-        print(playlist[0])
-        print(playlist[1])
+        print(len(playlist))
+        # print(playlist[0])
+        # print(playlist[1])
+        # print(playlist[2])
 
 
         with open("dataLastSearch.json", 'r') as x:
@@ -98,6 +100,9 @@ def homepage():
                 print(size)
 
         # call function to do search for getTracks
+        chose = getTracks(playlist[0], playlist[1])
+
+
         with open("dataTracks.json", 'r') as s:
             songs = json.loads(s.read())
         
@@ -109,7 +114,7 @@ def homepage():
             with open("dataSearch.json", 'r') as j:
                 dataPlaylists = json.loads(j.read())
 
-            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs)
+            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs, chose=chose.upper(), choseid=playlist[0])
 
         # else if q and size
         else:
@@ -117,7 +122,7 @@ def homepage():
             with open("dataSearch.json", 'r') as j:
                 dataPlaylists = json.loads(j.read())
 
-            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs)
+            return render_template("search.html", title="Search "+q, search=q.upper(), dataPlaylists=dataPlaylists, songs=songs, chose=chose.capitalize(), choseid=playlist[0])
 
     return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries, selected=country.upper())
 

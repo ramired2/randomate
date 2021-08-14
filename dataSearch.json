@@ -1,192 +1,120 @@
 [
     {
         "collaborative": false,
-        "description": "",
+        "description": "\ubc29\ud0c4\uc18c\ub144\ub2e8 contact: sarahbrlist@gmail.com",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/4RK2A6ql5PuWMLI76LapY9"
+            "spotify": "https://open.spotify.com/playlist/1BRApsIXvp17T1CSDPQxcg"
         },
-        "href": "https://api.spotify.com/v1/playlists/4RK2A6ql5PuWMLI76LapY9",
-        "id": "4RK2A6ql5PuWMLI76LapY9",
-        "images": [
-            {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebbd5a55a309c6d1e1c0072787d",
-                "width": null
-            }
-        ],
-        "name": "Jimin's Favorite Tracks",
-        "owner": {
-            "display_name": "BTS",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/bighitktm"
-            },
-            "href": "https://api.spotify.com/v1/users/bighitktm",
-            "id": "bighitktm",
-            "type": "user",
-            "uri": "spotify:user:bighitktm"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "MjA4LDk2ZDY3N2IzYWJhZGNiYzlmNzYwMWU4ZTc5N2M1NTczMzkzYzZhMWU=",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/4RK2A6ql5PuWMLI76LapY9/tracks",
-            "total": 21
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:4RK2A6ql5PuWMLI76LapY9"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/4O5x5IY9LCwVdKDZCvn4gR"
-        },
-        "href": "https://api.spotify.com/v1/playlists/4O5x5IY9LCwVdKDZCvn4gR",
-        "id": "4O5x5IY9LCwVdKDZCvn4gR",
+        "href": "https://api.spotify.com/v1/playlists/1BRApsIXvp17T1CSDPQxcg",
+        "id": "1BRApsIXvp17T1CSDPQxcg",
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2736feb6d9ed7891f40e9a524ddab67616d0000b2738afcb7dd182cffe8d53b781eab67616d0000b273aabacdacfb6eceeb819c6ed6ab67616d0000b273f9a16d4b6cd94eca041f00b8",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
                 "width": 60
             }
         ],
-        "name": "Jimin solos\ud83d\udc9b",
+        "name": "BTS All Songs",
         "owner": {
-            "display_name": "Mochi",
+            "display_name": "\u3055\u308a\u3055",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/31yuvfcqabwsrqcdhxrc567vat2u"
+                "spotify": "https://open.spotify.com/user/%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95"
             },
-            "href": "https://api.spotify.com/v1/users/31yuvfcqabwsrqcdhxrc567vat2u",
-            "id": "31yuvfcqabwsrqcdhxrc567vat2u",
+            "href": "https://api.spotify.com/v1/users/%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95",
+            "id": "\u304a\u304a\u306b\u3057\u3072\u3055\u308a\u3055",
             "type": "user",
-            "uri": "spotify:user:31yuvfcqabwsrqcdhxrc567vat2u"
+            "uri": "spotify:user:%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "NzEsMWJiYzZkN2RkNzE1ZDM2MmY5YTE1MGJhODA1ODU4NTM3MDcxNThhNg==",
+        "snapshot_id": "NzMwLGFiNWU1ZDI0NDI1NGQ5NjY3ZGI3ZTY3ODc2MTlmZGU0OTkwY2UyZTQ=",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/4O5x5IY9LCwVdKDZCvn4gR/tracks",
-            "total": 48
+            "href": "https://api.spotify.com/v1/playlists/1BRApsIXvp17T1CSDPQxcg/tracks",
+            "total": 313
         },
         "type": "playlist",
-        "uri": "spotify:playlist:4O5x5IY9LCwVdKDZCvn4gR"
+        "uri": "spotify:playlist:1BRApsIXvp17T1CSDPQxcg"
     },
     {
         "collaborative": false,
-        "description": "",
+        "description": "Did you get a Permission to Dance? A.R.M.Y is unbeatable\ud83d\udc9c  ",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/7nZP4Jl3tBwVcDFHFLwe9q"
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX08mhnhv6g9b"
         },
-        "href": "https://api.spotify.com/v1/playlists/7nZP4Jl3tBwVcDFHFLwe9q",
-        "id": "7nZP4Jl3tBwVcDFHFLwe9q",
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX08mhnhv6g9b",
+        "id": "37i9dQZF1DX08mhnhv6g9b",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebb615b8bd665df62035beef404",
+                "url": "https://i.scdn.co/image/ab67706f000000036e686136a3cd97010e255af7",
                 "width": null
             }
         ],
-        "name": "JIMIN",
+        "name": "This Is BTS",
         "owner": {
-            "display_name": "Lele joon",
+            "display_name": "Spotify",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/21og6xx64kt6bnlyqycoswygy"
+                "spotify": "https://open.spotify.com/user/spotify"
             },
-            "href": "https://api.spotify.com/v1/users/21og6xx64kt6bnlyqycoswygy",
-            "id": "21og6xx64kt6bnlyqycoswygy",
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
             "type": "user",
-            "uri": "spotify:user:21og6xx64kt6bnlyqycoswygy"
+            "uri": "spotify:user:spotify"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "NDI0LDdlZmUwZjcwNGM0YzYyNmU4ZDIzZWFlYWYyMTIwZjlkNjc0YzZiMDQ=",
+        "snapshot_id": "MTYyODg5ODc5NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/7nZP4Jl3tBwVcDFHFLwe9q/tracks",
-            "total": 42
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX08mhnhv6g9b/tracks",
+            "total": 114
         },
         "type": "playlist",
-        "uri": "spotify:playlist:7nZP4Jl3tBwVcDFHFLwe9q"
+        "uri": "spotify:playlist:37i9dQZF1DX08mhnhv6g9b"
     },
     {
         "collaborative": false,
-        "description": "Playlist para apoyar principalmente el trabajo de Park Jimin.",
+        "description": "&quot;Permission to Dance&quot; OUT NOW! Listen to all your BTS party favorites!",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/5Q2KkGg7tgpGsBB0HAujgF"
+            "spotify": "https://open.spotify.com/playlist/4em3xR5YVCP33dIyksqgnh"
         },
-        "href": "https://api.spotify.com/v1/playlists/5Q2KkGg7tgpGsBB0HAujgF",
-        "id": "5Q2KkGg7tgpGsBB0HAujgF",
+        "href": "https://api.spotify.com/v1/playlists/4em3xR5YVCP33dIyksqgnh",
+        "id": "4em3xR5YVCP33dIyksqgnh",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebbb13cd9b639f483ed5249927f",
+                "url": "https://i.scdn.co/image/ab67706c0000bebb40e21b328d6aa37d3dd64a7a",
                 "width": null
             }
         ],
-        "name": "JIMIN - BTS",
+        "name": "BTS Party + Permission to Dance!",
         "owner": {
-            "display_name": "@BTS_twt O",
+            "display_name": "Filtr US",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/11177737725"
+                "spotify": "https://open.spotify.com/user/myplay.com"
             },
-            "href": "https://api.spotify.com/v1/users/11177737725",
-            "id": "11177737725",
+            "href": "https://api.spotify.com/v1/users/myplay.com",
+            "id": "myplay.com",
             "type": "user",
-            "uri": "spotify:user:11177737725"
+            "uri": "spotify:user:myplay.com"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "NTEzLGVkNDliYTVkYzM5NWY3NGNhNGRhNGZmNTM4MjcwYWI1NDk0Y2ZmMzk=",
+        "snapshot_id": "MjQyLGJiNThlMDc3ZWJiZjY5YTgwMmYxMjQyMzNmOTg2ODRlMzFmNjhkNGQ=",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/5Q2KkGg7tgpGsBB0HAujgF/tracks",
-            "total": 54
+            "href": "https://api.spotify.com/v1/playlists/4em3xR5YVCP33dIyksqgnh/tracks",
+            "total": 101
         },
         "type": "playlist",
-        "uri": "spotify:playlist:5Q2KkGg7tgpGsBB0HAujgF"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/7pQl2FNGcheakfkJociRlt"
-        },
-        "href": "https://api.spotify.com/v1/playlists/7pQl2FNGcheakfkJociRlt",
-        "id": "7pQl2FNGcheakfkJociRlt",
-        "images": [
-            {
-                "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebb8dd4d795e92b813f2f87c5e2",
-                "width": null
-            }
-        ],
-        "name": "Filter by Jimin",
-        "owner": {
-            "display_name": "tirroner",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/6norn0g5pldf5zb4k6jgw5b8l"
-            },
-            "href": "https://api.spotify.com/v1/users/6norn0g5pldf5zb4k6jgw5b8l",
-            "id": "6norn0g5pldf5zb4k6jgw5b8l",
-            "type": "user",
-            "uri": "spotify:user:6norn0g5pldf5zb4k6jgw5b8l"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "NDIyLGE2M2EwOWFmYjcxYzgyZWNkOWE4ZGRiOTc3N2FmM2QwM2QxODMyYjU=",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/7pQl2FNGcheakfkJociRlt/tracks",
-            "total": 37
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:7pQl2FNGcheakfkJociRlt"
+        "uri": "spotify:playlist:4em3xR5YVCP33dIyksqgnh"
     }
 ]

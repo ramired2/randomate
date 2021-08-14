@@ -21,7 +21,6 @@ img {
     position: absolute;
     width: 80px;
     height: 80px;
-    /* top: 25px; */
 }
 
 .site-title {
@@ -37,7 +36,6 @@ img {
     text-decoration: none;
     padding: 10px 10px 10px 10px;
     color: #26de52;
-    /* left: 100px; */
     display: inline-block;
     margin: 10px 40px 10px 40px;
 }
@@ -135,7 +133,6 @@ img {
     right: 50px;
     height: 520px;
     overflow-y: scroll;
-    /* width: auto; */
     width: -webkit-fill-available;
 }
 
@@ -228,7 +225,8 @@ img {
 .top {
     background-color: black;
     color: #26de52;
-    margin: 30px 50px 30px 50px;
+    /* ch 50 --> 90 */
+    margin: 30px 90px 30px 50px;
     border-radius: 10px;
     height: fit-content;
     padding: 10px;
@@ -346,10 +344,6 @@ img {
     color:black;
     border-color: #26de51c7;
 }
-/* 
-.descriptionPlay {
-    left:600px;
-} */
 
 .containerHelp {
     width:100px;
@@ -550,7 +544,9 @@ img {
     height: fit-content;
     position: relative;
     top: 30px;
-    width: 700px;
+    /* ch 700 --> 500 */
+    width: 500px;
+    padding: 10px;
 }
 
 .pick {
@@ -574,7 +570,7 @@ img {
 }
 
 .indivTrack {
-    width: 620px;
+    width: 429px;
 }
 
 .track {

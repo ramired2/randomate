@@ -71,7 +71,7 @@
             {% for songs in songs %}
             <div class="displayPlaylists indivPlaylist indivTrack">
                 <p class="plsylistTxt track songTitle"><a href='https://open.spotify.com/track/{{ songs.id }}' target="_blank">{{ songs.name }}</a></p>
-                <p class="plsylistTxt track artistCreator"><a href='https://open.spotify.com/album/{{ songs.album["id"] }}' target="_blank">{{ songs.album["name"] }}</a></p>
+                <p class="plsylistTxt track artistCreator"><a href='https://open.spotify.com/album/{{ songs.albumId }}' target="_blank">{{ songs.albumName }}</a></p>
                 <p class="plsylistTxt track creatorName"><a href='https://open.spotify.com/artist/{{ songs.artistId }}' target="_blank">{{ songs.artistName }}</a></p>
           </div>
           {% endfor %}

@@ -9,10 +9,11 @@ from top import read
 @app.route("/homepage", methods=['GET', 'POST'])
 def homepage():
 
+    # spotify removed this function
     with open("countriesSpotify.json", 'r') as l:
             countries = json.loads(l.read())
     
-    # country = 'US'
+    country = 'US'
 
     # playlist = request.args.get("playlist")
     # print(playlist)
@@ -25,22 +26,24 @@ def homepage():
     
     # when entering diff country
     # json file that has countries n abbrevs needed
-    p = request.args.get('p')
-    n = request.args.get('n')
 
-    print(p)
-    print(n)
+    # spotify removed this function
+    # p = request.args.get('p')
+    # n = request.args.get('n')
 
-    if p and n:
-        n=int(n)
-        country = p
-        dataCharts = read(p.strip(), n)
-    elif p:
-        country = p
-        dataCharts = read(p.strip(), 10)
-    else:
-        dataCharts = read('us', 10)
-        country='us'
+    # print(p)
+    # print(n)
+
+    # if p and n:
+    #     n=int(n)
+    #     country = p
+    #     dataCharts = read(p.strip(), n)
+    # elif p:
+    #     country = p
+    #     dataCharts = read(p.strip(), 10)
+    # else:
+    dataCharts = read('us', 10)
+    country='us'
 
     # when entering playlist search
     q = request.args.get("q")
@@ -100,7 +103,7 @@ def homepage():
                 print(size)
 
         # call function to do search for getTracks
-        chose = getTracks(playlist[0], playlist[1])
+        chose = getTracks(playlist[0])
 
 
         with open("dataTracks.json", 'r') as s:
@@ -114,7 +117,7 @@ def homepage():
             with open("dataSearch.json", 'r') as j:
                 dataPlaylists = json.loads(j.read())
 
-            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs, chose=chose.upper(), choseid=playlist[0])
+            return render_template("search.html", title="Search "+q, search=q.capitalize(), dataPlaylists=dataPlaylists, songs=songs, chose=chose, choseid=playlist[0])
 
         # else if q and size
         else:
@@ -124,7 +127,8 @@ def homepage():
 
             return render_template("search.html", title="Search "+q, search=q.upper(), dataPlaylists=dataPlaylists, songs=songs, chose=chose.capitalize(), choseid=playlist[0])
 
-    return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries, selected=country.upper())
+    # return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries, selected=country.upper())
+    return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries)
 
 # specific page for getting playlists, must add number if using this link
 @app.route("/search/<query>/<num>", methods=["GET", "POST"])
@@ -169,14 +173,14 @@ def info(word, size):
     # return json.dumps(infos, indent=4)
 
 # link to just receive the info for x country top tracks
-@app.route("/info/top/<country>/<num>", methods=["GET", "POST"])
-def infoCountry(country, num):
-    num = int(num)
-    infos = read(country, num)
-    # with open("dataTop.json", 'r') as j:
-    #         infos = json.loads(j.read())
-    return render_template("info.html", infos=json.dumps(infos, indent=4))
-    # return json.dumps(infos, indent=4)
+# @app.route("/info/top/<country>/<num>", methods=["GET", "POST"])
+# def infoCountry(country, num):
+#     num = int(num)
+#     infos = read(country, num)
+#     # with open("dataTop.json", 'r') as j:
+#     #         infos = json.loads(j.read())
+#     return render_template("info.html", infos=json.dumps(infos, indent=4))
+#     # return json.dumps(infos, indent=4)
 
 
 

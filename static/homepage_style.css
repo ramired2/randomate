@@ -1,15 +1,40 @@
-header {
-    display: inline-flex;
-    width: -webkit-fill-available;
-    left: 0px;
-    height: 126px;
-    top: 0px;
-    background-color: black;
+/* header {
+    /* display: inline-flex; */
+    /* width: -webkit-fill-available; */
+    /* left: 0px; */
+    /* height: 126px; */
+    /* top: 0px; */
+    /* background-color: #29232c; */
+    /* position: fixed;
+} */
+
+body {
+    display: inline-block;
+    align-items: center;
+}
+
+/* for header */
+.headerContent {
+    /* background-color: #394e60; */
+    background-color: #29232c;
+    display: flex;
     position: fixed;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 2px 2px #32DE8A;
+}
+
+.navItem {
+    margin: 0px 10px 0px 10px;
+
 }
 
 html {
-    background-color: rgb(209, 243, 204);
+    background-color: #ececec;
 }
 
 .rando {
@@ -18,7 +43,7 @@ html {
 }
 
 img {
-    position: absolute;
+    position: inherit;
     width: 80px;
     height: 80px;
 }
@@ -27,7 +52,7 @@ img {
     top: 40px;
     left: 95px; 
     font-size: 35px;
-    color: #26de52;
+    color: #32DE8A;
     position: fixed;
     display:contents;
 }
@@ -35,7 +60,7 @@ img {
 .site-title a {
     text-decoration: none;
     padding: 10px 10px 10px 10px;
-    color: #26de52;
+    color: #32DE8A;
     display: inline-block;
     margin: 10px 40px 10px 40px;
 }
@@ -67,56 +92,26 @@ img {
     height: 30px;
 }
 
-#searchFunct {
-    position: absolute;
-    right: 210px;
-    margin: 10px;
-    border-color: #26de52;
-    border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
-    width: 250px;
-}
-
-#searchFunct:focus {
-    border-radius: 10px;
-    border-color: #26de52;
-}
-
-#searchButton {
-    right: 110px;
-    border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
-    cursor: pointer;
-}
-
-#searchButton:hover {
-    color:black;
-    background-color: #26de52;
-    border-color:#6aff8d;
-}
-
 .instructions {
     border-radius: 10px;
-    border: 2px solid #26de52;
+    border: 2px solid #c8abb4;
     width: 460px;
-    position: relative;
+    /* position: relative; */
     margin: 30px 50px 30px 50px;
     height: fit-content;
-    background-color: black;
-    color: #26de52;
+    background-color: #29232c;
+    color: #c8abb4;
     padding: 10px;
+    width: fit-content;
 }
 
 .info {
     margin:10px;
     padding:20px;
-    border: #26de52 1px solid;
+    border: #c8abb4 1px solid;
     border-radius: 10px;
-    width:400px;
+    /* width:400px; */
+    /* width: fit-content; */
 }
 
 .instructions h1 {
@@ -124,16 +119,16 @@ img {
 }
 
 .content {
-    top: 100px;
-    display: inline-flex;
-    margin: 20px;
-    position: fixed;
-    left: 50px;
-    width: 1000px;
-    right: 50px;
-    height: 520px;
-    overflow-y: scroll;
-    width: -webkit-fill-available;
+    /* top: 100px; */
+    /* display: inline-block; */
+    margin: 150px 0px 20px 0px;
+    /* position: relative; */
+    /* left: 50px; */
+    /* width: 1000px; */
+    /* right: 50px; */
+    /* height: 520px; */
+    /* overflow-y: scroll; */
+    /* width: -webkit-fill-available; */
 }
 
 /* FOR LIKED SONGS */
@@ -146,11 +141,13 @@ img {
 }
 
 .homeRand {
-    left:50px;
+    position: relative;
+    left: 20px;
+    top: 20px;
 }
 
 .indivLabel {
-    border: #26de52 1px solid;
+    border: #c8abb4 1px solid;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -164,7 +161,7 @@ img {
 
 .likedText{
     visibility: hidden;
-    color: #26de52;
+    color: #c8abb4;
     align-items: center;
 }
 
@@ -196,14 +193,14 @@ img {
 
 .homeText{
     visibility: hidden;
-    color: #26de52;
+    color: #c8abb4;
     align-items: center;
 }
 
 .header-image-container:hover .homeText {
     visibility: visible;
     background-color: #26de51c7;
-    color:black;
+    color:#29232c;
     border-color: chartreuse;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -223,18 +220,21 @@ img {
 }
 
 .top {
-    background-color: black;
-    color: #26de52;
+    background-color: #29232c;
+    color: #c8abb4;
     /* ch 50 --> 90 */
-    margin: 30px 90px 30px 50px;
+    display: inline-block;
+    margin: 30px;
     border-radius: 10px;
     height: fit-content;
     padding: 10px;
+    /* width: fit-content; */
     width: 460px;
+    vertical-align: top;
 }
 
 #gatheredPlaylists {
-    border: black 5px solid;
+    border: #29232c 5px solid;
     height: fit-content;
 }
 
@@ -246,12 +246,12 @@ img {
     width:200px;
 }
 
-.decorate {
-    background-color: black;
+/* .decorate {
+    background-color: #29232c;
     position: absolute;
     display: block;
     position:fixed;
-}
+} */
 
 .sides {
     width: 60px;
@@ -265,14 +265,14 @@ img {
     left: 0px;
 }
 
-.bottom {
+/* .bottom {
     width: -webkit-fill-available;
     left: 0px;
     height: 26px;
     bottom: 0px;
-    background-color: black;
+    background-color: #29232c;
     position: fixed;
-}
+} */
 
 .diffCountry {
     left:50px;
@@ -281,9 +281,9 @@ img {
 
 #gatheredPlaylists {
     margin: 30px 40px 30px 40px;
-    background-color: black;
+    background-color: #29232c;
     border-radius: 10px;
-    border: #26de52 2px solid;
+    border: #c8abb4 2px solid;
     width: 450px;
     left: 50px;
     text-align: center;
@@ -292,7 +292,7 @@ img {
 }
 
 .plsylistTxt {
-    color: #26de52;
+    color: #c8abb4;
     margin:10px;
     font-size: 15px;
 }
@@ -300,9 +300,9 @@ img {
 .displayPlaylists {
     margin: 5px 5px 10px 10px;
     display: inline-flex;
-    border:#26de52 1px solid;
+    border:#c8abb4 1px solid;
     border-radius: 10px;
-    background-color: black;
+    background-color: #29232c;
     align-items: center;
 }
 
@@ -325,7 +325,7 @@ img {
 
 .HiddenText{
     visibility: hidden;
-    color: #26de52;
+    color: #c8abb4;
     position: absolute;
     width: 100px;
     padding: 7px;
@@ -334,14 +334,14 @@ img {
 }
 
 .helpDescription {
-    margin-top: 90px;
+    margin-top: -40px;
     padding: 10px 5px 10px 5px;
 }
 
 .containerDescription:hover .HiddenText {
     visibility: visible;
     background-color: #26de51c7;
-    color:black;
+    color:#29232c;
     border-color: #26de51c7;
 }
 
@@ -353,19 +353,20 @@ img {
 }
 
 .containerHelp img {
-    top:15px;
+    top: 20px;
     cursor: help;
+    right: 20px;
 }
 .containerHelp:hover .HiddenText{
     visibility: visible;
     background-color: #26de51c7;
-    color:black;
-    border-color: #26de52;
+    color:#29232c;
+    border-color: #c8abb4;
     font-size: 13px;
 }
 
 .play {
-    background-color: #26de52;
+    background-color: #c8abb4;
     border-radius: 50%;
     width: 17px;
     height: 17px;
@@ -392,7 +393,7 @@ img {
 }
 
 .containerMusicPlayer {
-    background-color: black;
+    background-color: #29232c;
     position: relative;
     right: 100px;
     top: 30px;
@@ -408,7 +409,7 @@ img {
 }
 
 .txt {
-    color: #26de52;
+    color: #c8abb4;
     font-size: 15px;
     margin: 10px;
     margin-top: 20px;
@@ -429,7 +430,7 @@ img {
 .mediaOptions {
     margin: 10px;
     border-radius: 10px;
-    border: #26de52 1px solid;
+    border: #c8abb4 1px solid;
     align-content: center;
     position: relative;
 }
@@ -437,13 +438,13 @@ img {
 .chosenPlaylist {
     padding: 10px;
     margin-top: 30px;
-    border: #26de52 1px solid;
+    border: #c8abb4 1px solid;
     border-radius: 10px;
     text-align: center;
 }
 
 .idk {
-    border: #26de52 1px solid;
+    border: #c8abb4 1px solid;
     margin: 30px 0px 20px 0px;
     padding: 10px;
     text-align: center;
@@ -451,7 +452,7 @@ img {
 }
 
 .mediaOptions .fa {
-    color: #26de52;
+    color: #c8abb4;
     padding:20px;
 }
 
@@ -468,14 +469,14 @@ img {
 }
 
 .likedButton {
-    background-color: black;
-    color:#26de52;
-    box-shadow: #26de52;
+    background-color: #29232c;
+    color:#c8abb4;
+    box-shadow: #c8abb4;
 }
 
 .likedButton:hover {
-    background-color: #26de52;
-    color:black;
+    background-color: #c8abb4;
+    color:#29232c;
     border-color: rgb(210, 237, 182);
 }
 
@@ -483,29 +484,35 @@ img {
     cursor: pointer;
 }
 
-.askOtherCountry {
-    left: 2px;
-    position: absolute;
-    margin: 50px;
-    top: 390px;
-    display: inline-flex;
-}
+/* .askOtherCountry {
+    /* left: 2px; */
+    /* position: absolute; */
+    /* margin: 50px; */
+    /* top: 390px; */
+    /* display: inline-flex; 
+} */
 
 #searchCountryFunct {
-    border-color: #26de52;
+    border-color: #c8abb4;
     border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
+    color: #c8abb4;
+    background-color: #29232c;
+    border-color: #c8abb4;
     width: 250px;
 }
 
 #searchCountryButton {
     border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
+    color: #c8abb4;
+    background-color: #29232c;
+    border-color: #c8abb4;
     cursor: pointer;
+}
+
+#searchCountryButton:hover {
+    color:#29232c;
+    background-color: #c8abb4;
+    border-color:#ffc5cc;
 }
 
 .diffCountry {
@@ -517,30 +524,43 @@ img {
 }
 
 #countryChoose {
-    color: #26de52;
-    background: black;
-    border-color: #26de52;
+    color: #c8abb4;
+    background: #29232c;
+    border-color: #c8abb4;
     border-radius: 10px;
 }
+
+
+/* for search bar */
+.formSearch {
+    /* width:400px; */
+    display: inline-flex;
+}
+
 #inputNum {
-    border-color: #26de52;
     border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
+    color: #32DE8A;
+    background-color: #29232c;
+    border-color: #26bc73;
     width: 100px;
     margin: 10px 0px 10px 10px;
 }
 
-.formSearch {
-    width:400px;
+#changeColor {
+    border-color: #c8abb4;
+    color: #c8abb4;
+    background-color: #29232c;
+    border-color: #c8abb4;
+    width: 100px;
+    /* margin: 10px 0px 10px 10px; */
+    border-radius: 10px;
 }
 
 .choosePlaylist {
-    border: #26de52 1px solid;
-    color: #26de52;
+    border: #c8abb4 1px solid;
+    color: #c8abb4;
     border-radius: 10px;
-    background-color: black;
+    background-color: #29232c;
     height: fit-content;
     position: relative;
     top: 30px;
@@ -549,19 +569,57 @@ img {
     padding: 10px;
 }
 
+#searchFunct {
+    /* position: absolute; */
+    /* right: 210px; */
+    margin: 10px;
+    border-radius: 10px;
+    color: #32DE8A;
+    background-color: #29232c;
+    border-color: #26bc73;
+    /* width: 250px; */
+}
+
+#searchFunct:focus {
+    border-radius: 10px;
+    border-color: #26bc73;
+}
+
+#searchButton {
+    /* right: 110px; */
+    margin-left: 10px;
+    margin-top:10px;
+    border-radius: 10px;
+    color: #32DE8A;
+    background-color: #29232c;
+    border-color: #26bc73;
+    cursor: pointer;
+}
+
+.fixHeight {
+    height: fit-content;
+    margin: 0px 10px 0px 10px;
+}
+
+#searchButton:hover {
+    color:#29232c;
+    background-color: #32DE8A;
+    border-color:#26bc73;
+}
+
 .pick {
-    color:#26de52;
-    background-color: black;
-    border: 1px #26de52 solid;
+    color:#c8abb4;
+    background-color: #29232c;
+    border: 1px #c8abb4 solid;
     border-radius: 10px;
     margin: 10px 10px 20px 10px;
 }
 
 #playlistChooseButton {
     border-radius: 10px;
-    color: #26de52;
-    background-color: black;
-    border-color: #26de52;
+    color: #c8abb4;
+    background-color: #29232c;
+    border-color: #c8abb4;
     cursor: pointer;
 }
 
@@ -579,12 +637,12 @@ img {
 }
 
 .track a {
-    color:#26de52;
+    color:#c8abb4;
     text-decoration: none;
 }
 
 .track a:hover {
-    color:#26de52;
+    color:#c8abb4;
     text-decoration: underline;
 }
 
@@ -593,12 +651,12 @@ img {
 }
 
 .linkPl {
-    color:#26de52;
+    color:#c8abb4;
     text-decoration: none;
     margin:5px;
 }
 
 .linkPl:hover {
-    color:#26de52;
+    color:#c8abb4;
     text-decoration: underline;
 }

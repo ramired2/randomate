@@ -3,17 +3,18 @@ app = Flask(__name__)
 
 import json
 from search import processSearch, getTracks
-from top import read
+from top import read, billboardCategories, billboardTracks, categoryLinkToTitle
 
 @app.route("/")
 @app.route("/homepage", methods=['GET', 'POST'])
 def homepage():
 
+    #get the categories -- just in case changes at some point
+    billboardCategories()
+
     # spotify removed this function
-    with open("countriesSpotify.json", 'r') as l:
-            countries = json.loads(l.read())
-    
-    country = 'US'
+    with open("categories.json", 'r') as l:
+            category = json.loads(l.read())
 
     # playlist = request.args.get("playlist")
     # print(playlist)
@@ -24,26 +25,28 @@ def homepage():
         # creator id --> print(playlist[1])
         # getTracks()
     
-    # when entering diff country
-    # json file that has countries n abbrevs needed
+    # when entering diff category to look at
+    p = request.args.get('p')
+    n = request.args.get('n')
 
-    # spotify removed this function
-    # p = request.args.get('p')
-    # n = request.args.get('n')
+    print(p) # category
+    print(n) #number
 
-    # print(p)
-    # print(n)
-
-    # if p and n:
-    #     n=int(n)
-    #     country = p
-    #     dataCharts = read(p.strip(), n)
-    # elif p:
-    #     country = p
-    #     dataCharts = read(p.strip(), 10)
-    # else:
-    dataCharts = read('us', 10)
-    country='us'
+    # when choosing a diff category/ num items
+    if p and n:
+        n=int(n)
+        chosenCategory = p
+        print("p and num: ", p, n, "\n")
+        dataCharts = billboardTracks(p.strip(), n)
+        chosenCategory = categoryLinkToTitle(p)
+    elif p:
+        chosenCategory = p
+        print("p only: ", p, "\n")
+        dataCharts = billboardTracks(p.strip(), 100)
+        chosenCategory = categoryLinkToTitle(p)
+    else:
+        dataCharts = billboardTracks("/charts/hot-100/", 10)
+        chosenCategory="Hot 100"
 
     # when entering playlist search
     q = request.args.get("q")
@@ -128,7 +131,7 @@ def homepage():
             return render_template("search.html", title="Search "+q, search=q.upper(), dataPlaylists=dataPlaylists, songs=songs, chose=chose.capitalize(), choseid=playlist[0])
 
     # return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries, selected=country.upper())
-    return render_template("homepage.html", title="Home", dataCharts=dataCharts, countries=countries)
+    return render_template("homepage.html", title="Home", dataCharts=dataCharts, category=category, selected=chosenCategory)
 
 # specific page for getting playlists, must add number if using this link
 @app.route("/search/<query>/<num>", methods=["GET", "POST"])

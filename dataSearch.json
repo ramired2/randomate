@@ -1,120 +1,74 @@
 [
     {
         "collaborative": false,
-        "description": "\ubc29\ud0c4\uc18c\ub144\ub2e8 contact: sarahbrlist@gmail.com",
+        "description": "\u201cFor a boy who walks around like he\u2019s made of stone, Regulus touch\u2019s like the sun\u201d ",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/1BRApsIXvp17T1CSDPQxcg"
+            "spotify": "https://open.spotify.com/playlist/5EUoVuR12KnWlzjRMfgnji"
         },
-        "href": "https://api.spotify.com/v1/playlists/1BRApsIXvp17T1CSDPQxcg",
-        "id": "1BRApsIXvp17T1CSDPQxcg",
-        "images": [
-            {
-                "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
-                "width": 640
-            },
-            {
-                "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
-                "width": 300
-            },
-            {
-                "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27334938530af5d2d98acf174fcab67616d0000b2736bb2b8231817c8d205d07fb2ab67616d0000b273a4070a9a5fecdb73ba443e28ab67616d0000b273db49bb80a6398e02037ffa39",
-                "width": 60
-            }
-        ],
-        "name": "BTS All Songs",
-        "owner": {
-            "display_name": "\u3055\u308a\u3055",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95"
-            },
-            "href": "https://api.spotify.com/v1/users/%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95",
-            "id": "\u304a\u304a\u306b\u3057\u3072\u3055\u308a\u3055",
-            "type": "user",
-            "uri": "spotify:user:%E3%81%8A%E3%81%8A%E3%81%AB%E3%81%97%E3%81%B2%E3%81%95%E3%82%8A%E3%81%95"
-        },
-        "primary_color": null,
-        "public": null,
-        "snapshot_id": "NzMwLGFiNWU1ZDI0NDI1NGQ5NjY3ZGI3ZTY3ODc2MTlmZGU0OTkwY2UyZTQ=",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/1BRApsIXvp17T1CSDPQxcg/tracks",
-            "total": 313
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:1BRApsIXvp17T1CSDPQxcg"
-    },
-    {
-        "collaborative": false,
-        "description": "Did you get a Permission to Dance? A.R.M.Y is unbeatable\ud83d\udc9c  ",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX08mhnhv6g9b"
-        },
-        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX08mhnhv6g9b",
-        "id": "37i9dQZF1DX08mhnhv6g9b",
+        "href": "https://api.spotify.com/v1/playlists/5EUoVuR12KnWlzjRMfgnji",
+        "id": "5EUoVuR12KnWlzjRMfgnji",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706f000000036e686136a3cd97010e255af7",
+                "url": "https://i.scdn.co/image/ab67706c0000bebb4a64d5211d9b58df03fc8d3c",
                 "width": null
             }
         ],
-        "name": "This Is BTS",
+        "name": "jegulus coded \u26c8\u2728",
         "owner": {
-            "display_name": "Spotify",
+            "display_name": "Emily DaCosta",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/spotify"
+                "spotify": "https://open.spotify.com/user/clvpamafoofwxavkqlqdof0rs"
             },
-            "href": "https://api.spotify.com/v1/users/spotify",
-            "id": "spotify",
+            "href": "https://api.spotify.com/v1/users/clvpamafoofwxavkqlqdof0rs",
+            "id": "clvpamafoofwxavkqlqdof0rs",
             "type": "user",
-            "uri": "spotify:user:spotify"
+            "uri": "spotify:user:clvpamafoofwxavkqlqdof0rs"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "MTYyODg5ODc5NywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+        "snapshot_id": "MTYxLDhkODM2YTkyMmM1MDZlOGFhOTc4YWNiNjA1MzkwM2U3ODg0NWY1ZWE=",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX08mhnhv6g9b/tracks",
-            "total": 114
+            "href": "https://api.spotify.com/v1/playlists/5EUoVuR12KnWlzjRMfgnji/tracks",
+            "total": 116
         },
         "type": "playlist",
-        "uri": "spotify:playlist:37i9dQZF1DX08mhnhv6g9b"
+        "uri": "spotify:playlist:5EUoVuR12KnWlzjRMfgnji"
     },
     {
         "collaborative": false,
-        "description": "&quot;Permission to Dance&quot; OUT NOW! Listen to all your BTS party favorites!",
+        "description": "- for all the regulus arcturus black kinnies who know they\u2019re the problem",
         "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/4em3xR5YVCP33dIyksqgnh"
+            "spotify": "https://open.spotify.com/playlist/4GKK0IdbPvWtktBHfqrg23"
         },
-        "href": "https://api.spotify.com/v1/playlists/4em3xR5YVCP33dIyksqgnh",
-        "id": "4em3xR5YVCP33dIyksqgnh",
+        "href": "https://api.spotify.com/v1/playlists/4GKK0IdbPvWtktBHfqrg23",
+        "id": "4GKK0IdbPvWtktBHfqrg23",
         "images": [
             {
                 "height": null,
-                "url": "https://i.scdn.co/image/ab67706c0000bebb40e21b328d6aa37d3dd64a7a",
+                "url": "https://i.scdn.co/image/ab67706c0000bebbf86a5327c581c36620bb4105",
                 "width": null
             }
         ],
-        "name": "BTS Party + Permission to Dance!",
+        "name": "regulus black (unhinged edition)",
         "owner": {
-            "display_name": "Filtr US",
+            "display_name": "Julia",
             "external_urls": {
-                "spotify": "https://open.spotify.com/user/myplay.com"
+                "spotify": "https://open.spotify.com/user/31ufd7a3l37dsrgspfdilm2eyepe"
             },
-            "href": "https://api.spotify.com/v1/users/myplay.com",
-            "id": "myplay.com",
+            "href": "https://api.spotify.com/v1/users/31ufd7a3l37dsrgspfdilm2eyepe",
+            "id": "31ufd7a3l37dsrgspfdilm2eyepe",
             "type": "user",
-            "uri": "spotify:user:myplay.com"
+            "uri": "spotify:user:31ufd7a3l37dsrgspfdilm2eyepe"
         },
         "primary_color": null,
         "public": null,
-        "snapshot_id": "MjQyLGJiNThlMDc3ZWJiZjY5YTgwMmYxMjQyMzNmOTg2ODRlMzFmNjhkNGQ=",
+        "snapshot_id": "ODEsZGUyYmY5ZGUxYjAwMzkyOTk2ZGU2OGM4Zjk5ZTRhYzEyZDdkZDY0OQ==",
         "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/4em3xR5YVCP33dIyksqgnh/tracks",
-            "total": 101
+            "href": "https://api.spotify.com/v1/playlists/4GKK0IdbPvWtktBHfqrg23/tracks",
+            "total": 65
         },
         "type": "playlist",
-        "uri": "spotify:playlist:4em3xR5YVCP33dIyksqgnh"
+        "uri": "spotify:playlist:4GKK0IdbPvWtktBHfqrg23"
     }
 ]

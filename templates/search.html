@@ -1,6 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
   <div class="content">
+    <div class="containerHelp">
+      <img class = "helpImg" src="{{ url_for('static', filename='help.png')}}" 
+          alt="how to use randomate">
+      <p class="HiddenText helpDescription">To use randomate enter a word or 
+        phrase into the top right search box, if you want, you can also include
+        a number of items you want. Then press the search button and receive a list
+        of playlists to discover! To see the playlist description hover over 
+        "...". To see the spotify page for that playlist, click on the heart 
+        button to the left of the playlist name. If you would like to see the 
+        tracks of a specific playlist click on the playlist.
+      </p>
+    </div>
+
+
         <div id="gatheredPlaylists" class="top">
           <h1 class="plsylistTxt searched">Playlist Inspiration is {{ search }}</h1>
           <div class="displayPlaylists explainLayout">

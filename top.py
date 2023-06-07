@@ -31,9 +31,8 @@ def billboardCategories():
         # print(indiv, '\n')
         infos.append(indiv.get_text())
 
-    # print("categories:\n")
+    #first is "categories"
     infos.pop(0)
-    # print(infos, '\n\n')
     
     
     final = []
@@ -47,9 +46,10 @@ def billboardCategories():
         indiv = indiv.replace('\t', "")
 
         if "album" not in indiv and "album" not in link:
-            final.append({"category":indiv.lower(), "link":link.lower()})
+            if "artist" not in indiv:
+                final.append({"category":indiv, "link":link.lower()})
     
-    final.append({"category":"billboard global 200", "link":"/charts/billboard-global-200"})
+    final.append({"category":"Billboard global 200", "link":"/charts/billboard-global-200"})
     
     # print("final list\n")
     # print (final)

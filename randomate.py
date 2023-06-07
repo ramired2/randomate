@@ -10,11 +10,11 @@ from top import read, billboardCategories, billboardTracks, categoryLinkToTitle
 def homepage():
 
     #get the categories -- just in case changes at some point
-    billboardCategories()
+    category = billboardCategories()
 
     # spotify removed this function
-    with open("categories.json", 'r') as l:
-            category = json.loads(l.read())
+    # with open("categories.json", 'r') as l:
+    #         category = json.loads(l.read())
 
     # playlist = request.args.get("playlist")
     # print(playlist)
@@ -45,7 +45,7 @@ def homepage():
         dataCharts = billboardTracks(p.strip(), 100)
         chosenCategory = categoryLinkToTitle(p)
     else:
-        dataCharts = billboardTracks("/charts/hot-100/", 10)
+        dataCharts = billboardTracks("/charts/hot-100/", 100)
         chosenCategory="Hot 100"
 
     # when entering playlist search

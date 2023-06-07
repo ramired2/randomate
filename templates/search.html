@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
-
-        <div id="gatheredPlaylists">
+  <div class="content">
+        <div id="gatheredPlaylists" class="top">
           <h1 class="plsylistTxt searched">Playlist Inspiration is {{ search }}</h1>
           <div class="displayPlaylists explainLayout">
             <!-- <div class="indivPlaylist"> -->
@@ -40,7 +40,7 @@
         {% endfor %}
         </div>
 
-        <div class="choosePlaylist">
+        <div class="choosePlaylist top" >
           <div class="info containerInfo">
             <h1 class="Title">If you want to see the tracks of a specific playlist... click on the drop menu below</h1>
             {% if chose != "" %}
@@ -79,4 +79,5 @@
 
           </div>
         </div>
+      </div>
 {% endblock content %}

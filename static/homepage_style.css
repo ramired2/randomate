@@ -236,6 +236,19 @@ img {
 #gatheredPlaylists {
     border: #29232c 5px solid;
     height: fit-content;
+
+    /* fix the positioning */
+    vertical-align: top;
+   
+    margin: 30px 40px 30px 40px;
+    background-color: #29232c;
+    border-radius: 10px;
+    border: #c8abb4 2px solid;
+    width: 450px;
+    left: 50px;
+    text-align: center;
+    height: fit-content;
+    padding: 10px;
 }
 
 .rank {
@@ -277,18 +290,6 @@ img {
 .diffCountry {
     left:50px;
     position:fixed
-}
-
-#gatheredPlaylists {
-    margin: 30px 40px 30px 40px;
-    background-color: #29232c;
-    border-radius: 10px;
-    border: #c8abb4 2px solid;
-    width: 450px;
-    left: 50px;
-    text-align: center;
-    height: fit-content;
-    padding: 10px;
 }
 
 .plsylistTxt {
@@ -562,8 +563,8 @@ img {
     border-radius: 10px;
     background-color: #29232c;
     height: fit-content;
-    position: relative;
-    top: 30px;
+    /* position: relative; */
+    /* top: 30px; */
     /* ch 700 --> 500 */
     width: 500px;
     padding: 10px;
@@ -659,4 +660,8 @@ img {
 .linkPl:hover {
     color:#c8abb4;
     text-decoration: underline;
+}
+
+.categorySeparate {
+    display: inline-block;
 }

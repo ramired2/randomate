@@ -47,15 +47,10 @@
                   <li>Or enter nothing at all and simply enjoy the Top 100 tracks on Billboard!</li>
                 </ol>
               </div>
-                <div class="search diffCountry">
-                  <form class="formSearch" method="GET POST">
-                  <!-- <input id="searchCountryFunct" type="text" placeholder="Enter a country" name="p">
-                  <button id="searchCountryButton" type="submit" value="Go"><i class="fa fa-search"></i></button> -->
-                  <!-- </form> -->
-                  
-                  <!-- <div class="filter-input-container"> -->
+                <div ><!--  class="search diffCountry" class="formSearch"-->
+                  <div class="fix_width">
+                  <form  method="GET POST">
                     <label for="countryChoose" ></label>
-                    <!-- <div class="filter-input-element"> -->
                       <select id="countryChoose" class="filter-input fixHeight" name="p">
                         <option selected value="">Choose a Billboard chart category</option>
                         {% for category in category %}
@@ -63,9 +58,9 @@
                         {% endfor %}
                         <input id="changeColor" class = "fixHeight" type="text" placeholder="number less 100" name="n" max="100">
                       </select>
-                    <!-- </div> -->
+
                     <button id="searchCountryButton" class = "fixHeight" type="submit" value="Go"><i class="fa fa-search"></i></button>
-                  <!-- </div> -->
+                    </div>
 
                   </form>
                 </div>
